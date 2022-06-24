@@ -1,0 +1,629 @@
+# nnet3-latgen-faster-parallel --num-threads=4 --online-ivectors=scp:exp/percgncopas5k/train/nnet3_s/ivectors_test_hires/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=140 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/words.txt exp/percgncopas5k/chain_s/tdnn1k_sp/final.mdl exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/HCLG.fst "ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data-percgncopas5k/test_hires/split1/1/utt2spk scp:data-percgncopas5k/test_hires/split1/1/cmvn.scp scp:data-percgncopas5k/test_hires/split1/1/feats.scp ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/lat.1.gz" 
+# Started at Tue Mar 23 10:11:20 CET 2021
+#
+nnet3-latgen-faster-parallel --num-threads=4 --online-ivectors=scp:exp/percgncopas5k/train/nnet3_s/ivectors_test_hires/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=140 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/words.txt exp/percgncopas5k/chain_s/tdnn1k_sp/final.mdl exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/HCLG.fst 'ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data-percgncopas5k/test_hires/split1/1/utt2spk scp:data-percgncopas5k/test_hires/split1/1/cmvn.scp scp:data-percgncopas5k/test_hires/split1/1/feats.scp ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/lat.1.gz' 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 1 orphan nodes.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 2 orphan components.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:Collapse():nnet-utils.cc:1472) Added 1 components, removed 2
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data-percgncopas5k/test_hires/split1/1/utt2spk scp:data-percgncopas5k/test_hires/split1/1/cmvn.scp scp:data-percgncopas5k/test_hires/split1/1/feats.scp ark:- 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:CheckAndFixConfigs():nnet-am-decodable-simple.cc:294) Increasing --frames-per-chunk from 140 to 141 to make it a multiple of --frame-subsampling-factor=3
+pp28-domotica3_command1 al de lichten in de woonkamer en keuken in 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command1 is 1.09193 over 368 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0662 seconds taken in nnet3 compilation total (breakdown: 0.0546 compilation, 0.00671 optimization, 0 shortcut expansion, 0.00128 checking, 4.05e-06 computing indexes, 0.00361 misc.) + 0 I/O.
+pp28-domotica3_command10 hoofdeinde op stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command10 is 1.18065 over 292 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0519 seconds taken in nnet3 compilation total (breakdown: 0.0395 compilation, 0.00743 optimization, 0 shortcut expansion, 0.0017 checking, 5.96e-06 computing indexes, 0.00317 misc.) + 0 I/O.
+pp28-domotica3_command100 de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command100 is 1.11599 over 196 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0524 seconds taken in nnet3 compilation total (breakdown: 0.0412 compilation, 0.00698 optimization, 0 shortcut expansion, 0.00142 checking, 2.86e-06 computing indexes, 0.0028 misc.) + 0 I/O.
+pp28-domotica3_command101 rolluik omhoog deur open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command101 is 1.36613 over 176 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0842 seconds taken in nnet3 compilation total (breakdown: 0.068 compilation, 0.00908 optimization, 0 shortcut expansion, 0.00178 checking, 6.2e-06 computing indexes, 0.00524 misc.) + 0 I/O.
+pp28-domotica3_command102 al de lichten open en keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command102 is 1.10474 over 316 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0635 seconds taken in nnet3 compilation total (breakdown: 0.0514 compilation, 0.00675 optimization, 0 shortcut expansion, 0.00118 checking, 4.05e-06 computing indexes, 0.00418 misc.) + 0 I/O.
+pp28-domotica3_command103 al de al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command103 is 1.32308 over 206 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0513 seconds taken in nnet3 compilation total (breakdown: 0.0404 compilation, 0.0068 optimization, 0 shortcut expansion, 0.00137 checking, 4.05e-06 computing indexes, 0.00265 misc.) + 0 I/O.
+pp28-domotica3_command104 al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command104 is 1.07752 over 246 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0503 seconds taken in nnet3 compilation total (breakdown: 0.0391 compilation, 0.00703 optimization, 0 shortcut expansion, 0.00139 checking, 5.01e-06 computing indexes, 0.00278 misc.) + 0 I/O.
+pp28-domotica3_command105 al de badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command105 is 1.06407 over 233 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0888 seconds taken in nnet3 compilation total (breakdown: 0.0732 compilation, 0.009 optimization, 0 shortcut expansion, 0.00167 checking, 5.96e-06 computing indexes, 0.00491 misc.) + 0 I/O.
+pp28-domotica3_command106 al de deur in de op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command106 is 1.16931 over 264 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0762 seconds taken in nnet3 compilation total (breakdown: 0.0613 compilation, 0.00867 optimization, 0 shortcut expansion, 0.00167 checking, 5.96e-06 computing indexes, 0.00453 misc.) + 0 I/O.
+pp28-domotica3_command107 al lamp op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command107 is 1.22428 over 255 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0769 seconds taken in nnet3 compilation total (breakdown: 0.061 compilation, 0.00913 optimization, 0 shortcut expansion, 0.0018 checking, 3.81e-06 computing indexes, 0.00501 misc.) + 0 I/O.
+pp28-domotica3_command108 al de op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command108 is 1.19803 over 260 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0795 seconds taken in nnet3 compilation total (breakdown: 0.0645 compilation, 0.00894 optimization, 0 shortcut expansion, 0.00181 checking, 4.29e-06 computing indexes, 0.00425 misc.) + 0 I/O.
+pp28-domotica3_command109 al de hoofdeinde op stand twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command109 is 1.15898 over 289 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0714 seconds taken in nnet3 compilation total (breakdown: 0.0561 compilation, 0.00934 optimization, 0 shortcut expansion, 0.00198 checking, 5.01e-06 computing indexes, 0.00396 misc.) + 0 I/O.
+pp28-domotica3_command11 al de lichten en keuken aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command11 is 1.38294 over 264 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0772 seconds taken in nnet3 compilation total (breakdown: 0.0627 compilation, 0.00894 optimization, 0 shortcut expansion, 0.0016 checking, 5.01e-06 computing indexes, 0.00397 misc.) + 0 I/O.
+pp28-domotica3_command110 al de lichten in al 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command110 is 1.20806 over 227 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0861 seconds taken in nnet3 compilation total (breakdown: 0.0699 compilation, 0.00889 optimization, 0 shortcut expansion, 0.00165 checking, 5.01e-06 computing indexes, 0.00568 misc.) + 0 I/O.
+pp28-domotica3_command111 al rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command111 is 1.17728 over 219 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0814 seconds taken in nnet3 compilation total (breakdown: 0.0669 compilation, 0.0087 optimization, 0 shortcut expansion, 0.0016 checking, 4.05e-06 computing indexes, 0.00417 misc.) + 0 I/O.
+pp28-domotica3_command112 al de keuken aan slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command112 is 1.05859 over 269 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0615 seconds taken in nnet3 compilation total (breakdown: 0.0501 compilation, 0.00691 optimization, 0 shortcut expansion, 0.0013 checking, 6.2e-06 computing indexes, 0.00319 misc.) + 0 I/O.
+pp28-domotica3_command113 al de keuken rolluik omhoog 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command113 is 1.0416 over 297 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.087 seconds taken in nnet3 compilation total (breakdown: 0.0683 compilation, 0.0112 optimization, 0 shortcut expansion, 0.00228 checking, 5.01e-06 computing indexes, 0.00523 misc.) + 0 I/O.
+pp28-domotica3_command114 rolluik achterdeur naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command114 is 0.993697 over 286 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0629 seconds taken in nnet3 compilation total (breakdown: 0.0494 compilation, 0.00861 optimization, 0 shortcut expansion, 0.00164 checking, 4.05e-06 computing indexes, 0.00319 misc.) + 0 I/O.
+pp28-domotica3_command115 al omhoog deur neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command115 is 0.937312 over 286 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0684 seconds taken in nnet3 compilation total (breakdown: 0.0532 compilation, 0.00953 optimization, 0 shortcut expansion, 0.00182 checking, 5.01e-06 computing indexes, 0.00386 misc.) + 0 I/O.
+pp28-domotica3_command116 al de keuken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command116 is 1.10594 over 197 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0719 seconds taken in nnet3 compilation total (breakdown: 0.0558 compilation, 0.00991 optimization, 0 shortcut expansion, 0.00198 checking, 5.96e-06 computing indexes, 0.00425 misc.) + 0 I/O.
+pp28-domotica3_command118 al de omhoog in en neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command118 is 0.973057 over 283 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0532 seconds taken in nnet3 compilation total (breakdown: 0.0392 compilation, 0.00947 optimization, 0 shortcut expansion, 0.00168 checking, 4.05e-06 computing indexes, 0.00283 misc.) + 0 I/O.
+pp28-domotica3_command119 deur slaapkamer dicht 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command119 is 1.07053 over 258 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0599 seconds taken in nnet3 compilation total (breakdown: 0.0479 compilation, 0.00712 optimization, 0 shortcut expansion, 0.00155 checking, 3.81e-06 computing indexes, 0.00335 misc.) + 0 I/O.
+pp28-domotica3_command12 neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command12 is 1.20207 over 211 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0603 seconds taken in nnet3 compilation total (breakdown: 0.0488 compilation, 0.00691 optimization, 0 shortcut expansion, 0.00147 checking, 4.05e-06 computing indexes, 0.00315 misc.) + 0 I/O.
+pp28-domotica3_command120 deur open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command120 is 1.07948 over 254 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0802 seconds taken in nnet3 compilation total (breakdown: 0.0645 compilation, 0.00893 optimization, 0 shortcut expansion, 0.00184 checking, 3.81e-06 computing indexes, 0.00501 misc.) + 0 I/O.
+pp28-domotica3_command121 al de lichten in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command121 is 1.21042 over 261 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0576 seconds taken in nnet3 compilation total (breakdown: 0.0466 compilation, 0.00651 optimization, 0 shortcut expansion, 0.00117 checking, 3.1e-06 computing indexes, 0.00331 misc.) + 0 I/O.
+pp28-domotica3_command122 al de lichten uit in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command122 is 1.35141 over 272 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0626 seconds taken in nnet3 compilation total (breakdown: 0.0505 compilation, 0.00688 optimization, 0 shortcut expansion, 0.00135 checking, 3.81e-06 computing indexes, 0.00386 misc.) + 0 I/O.
+pp28-domotica3_command123 uit in staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command123 is 1.37676 over 257 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0789 seconds taken in nnet3 compilation total (breakdown: 0.064 compilation, 0.00895 optimization, 0 shortcut expansion, 0.00171 checking, 5.01e-06 computing indexes, 0.00421 misc.) + 0 I/O.
+pp28-domotica3_command124 al de in staande lamp op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command124 is 1.18801 over 245 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0736 seconds taken in nnet3 compilation total (breakdown: 0.0584 compilation, 0.00939 optimization, 0 shortcut expansion, 0.00194 checking, 4.05e-06 computing indexes, 0.00392 misc.) + 0 I/O.
+pp28-domotica3_command125 uit in staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command125 is 1.26355 over 238 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0648 seconds taken in nnet3 compilation total (breakdown: 0.0506 compilation, 0.00879 optimization, 0 shortcut expansion, 0.00179 checking, 5.01e-06 computing indexes, 0.00356 misc.) + 0 I/O.
+pp28-domotica3_command126 uit in de op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command126 is 1.10676 over 321 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0849 seconds taken in nnet3 compilation total (breakdown: 0.0695 compilation, 0.00884 optimization, 0 shortcut expansion, 0.00163 checking, 6.2e-06 computing indexes, 0.00497 misc.) + 0 I/O.
+pp28-domotica3_command127 in de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command127 is 1.22123 over 209 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0805 seconds taken in nnet3 compilation total (breakdown: 0.064 compilation, 0.0097 optimization, 0 shortcut expansion, 0.00192 checking, 5.25e-06 computing indexes, 0.00487 misc.) + 0 I/O.
+pp28-domotica3_command128 uit in de open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command128 is 1.39951 over 173 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0616 seconds taken in nnet3 compilation total (breakdown: 0.0509 compilation, 0.00664 optimization, 0 shortcut expansion, 0.0012 checking, 3.81e-06 computing indexes, 0.00288 misc.) + 0 I/O.
+pp28-domotica3_command129 uit in de woonkamer licht aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command129 is 1.28183 over 281 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0917 seconds taken in nnet3 compilation total (breakdown: 0.0755 compilation, 0.00895 optimization, 0 shortcut expansion, 0.00168 checking, 5.96e-06 computing indexes, 0.00555 misc.) + 0 I/O.
+pp28-domotica3_command13 slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command13 is 1.28425 over 353 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0636 seconds taken in nnet3 compilation total (breakdown: 0.0505 compilation, 0.00784 optimization, 0 shortcut expansion, 0.00184 checking, 1.31e-05 computing indexes, 0.0035 misc.) + 0 I/O.
+pp28-domotica3_command130 al de lichten in de woonkamer en keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command130 is 1.09112 over 312 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0817 seconds taken in nnet3 compilation total (breakdown: 0.068 compilation, 0.00843 optimization, 0 shortcut expansion, 0.00158 checking, 5.01e-06 computing indexes, 0.00363 misc.) + 0 I/O.
+pp28-domotica3_command131 uit in al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command131 is 1.25867 over 234 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.093 seconds taken in nnet3 compilation total (breakdown: 0.0772 compilation, 0.00905 optimization, 0 shortcut expansion, 0.00173 checking, 4.05e-06 computing indexes, 0.00496 misc.) + 0 I/O.
+pp28-domotica3_command132 uit in de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command132 is 1.14282 over 265 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0837 seconds taken in nnet3 compilation total (breakdown: 0.0672 compilation, 0.00924 optimization, 0 shortcut expansion, 0.00177 checking, 5.01e-06 computing indexes, 0.00552 misc.) + 0 I/O.
+pp28-domotica3_command133 rolluik in de woonkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command133 is 1.10613 over 233 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0886 seconds taken in nnet3 compilation total (breakdown: 0.0736 compilation, 0.00878 optimization, 0 shortcut expansion, 0.00167 checking, 3.81e-06 computing indexes, 0.00455 misc.) + 0 I/O.
+pp28-domotica3_command134 al de lichten in de keuken aan op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command134 is 1.27716 over 256 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0591 seconds taken in nnet3 compilation total (breakdown: 0.0477 compilation, 0.0069 optimization, 0 shortcut expansion, 0.00149 checking, 4.05e-06 computing indexes, 0.00308 misc.) + 0 I/O.
+pp28-domotica3_command135 al de hoofdeinde op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command135 is 1.22156 over 248 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.074 seconds taken in nnet3 compilation total (breakdown: 0.0587 compilation, 0.00914 optimization, 0 shortcut expansion, 0.00194 checking, 5.25e-06 computing indexes, 0.00426 misc.) + 0 I/O.
+pp28-domotica3_command136 al al hoofdeinde op stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command136 is 1.18969 over 275 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0739 seconds taken in nnet3 compilation total (breakdown: 0.0619 compilation, 0.00709 optimization, 0 shortcut expansion, 0.0013 checking, 4.05e-06 computing indexes, 0.00366 misc.) + 0 I/O.
+pp28-domotica3_command137 al chauffage op stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command137 is 1.16884 over 261 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0801 seconds taken in nnet3 compilation total (breakdown: 0.0645 compilation, 0.0091 optimization, 0 shortcut expansion, 0.00186 checking, 2.86e-06 computing indexes, 0.00459 misc.) + 0 I/O.
+pp28-domotica3_command138 al de lichten in en keuken 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command138 is 1.37243 over 240 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.048 seconds taken in nnet3 compilation total (breakdown: 0.0372 compilation, 0.0068 optimization, 0 shortcut expansion, 0.00129 checking, 3.81e-06 computing indexes, 0.00265 misc.) + 0 I/O.
+pp28-domotica3_command139 al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command139 is 1.27834 over 207 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0763 seconds taken in nnet3 compilation total (breakdown: 0.0613 compilation, 0.00885 optimization, 0 shortcut expansion, 0.00183 checking, 5.01e-06 computing indexes, 0.00439 misc.) + 0 I/O.
+pp28-domotica3_command14 in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command14 is 1.08382 over 299 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0773 seconds taken in nnet3 compilation total (breakdown: 0.0615 compilation, 0.00902 optimization, 0 shortcut expansion, 0.0019 checking, 4.05e-06 computing indexes, 0.0049 misc.) + 0 I/O.
+pp28-domotica3_command141 al de keuken slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command141 is 1.00627 over 256 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.06 seconds taken in nnet3 compilation total (breakdown: 0.0483 compilation, 0.00708 optimization, 0 shortcut expansion, 0.00149 checking, 3.81e-06 computing indexes, 0.00318 misc.) + 0 I/O.
+pp28-domotica3_command142 rolluik omhoog 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command142 is 1.02389 over 307 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0636 seconds taken in nnet3 compilation total (breakdown: 0.0509 compilation, 0.00721 optimization, 0 shortcut expansion, 0.00152 checking, 3.81e-06 computing indexes, 0.004 misc.) + 0 I/O.
+pp28-domotica3_command143 rolluik achterdeur naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command143 is 1.06218 over 322 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0902 seconds taken in nnet3 compilation total (breakdown: 0.0737 compilation, 0.00895 optimization, 0 shortcut expansion, 0.00171 checking, 5.01e-06 computing indexes, 0.00585 misc.) + 0 I/O.
+pp28-domotica3_command144 rolluik omhoog deur open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command144 is 0.971826 over 290 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0667 seconds taken in nnet3 compilation total (breakdown: 0.0543 compilation, 0.00768 optimization, 0 shortcut expansion, 0.00168 checking, 4.77e-06 computing indexes, 0.00308 misc.) + 0 I/O.
+pp28-domotica3_command145 al de rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command145 is 1.10717 over 206 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0878 seconds taken in nnet3 compilation total (breakdown: 0.0697 compilation, 0.0105 optimization, 0 shortcut expansion, 0.00219 checking, 5.25e-06 computing indexes, 0.00533 misc.) + 0 I/O.
+pp28-domotica3_command146 al de open omhoog 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command146 is 1.06349 over 288 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0501 seconds taken in nnet3 compilation total (breakdown: 0.0383 compilation, 0.00722 optimization, 0 shortcut expansion, 0.00154 checking, 4.05e-06 computing indexes, 0.00297 misc.) + 0 I/O.
+pp28-domotica3_command147 deur slaapkamer dicht 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command147 is 1.06503 over 248 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0631 seconds taken in nnet3 compilation total (breakdown: 0.0514 compilation, 0.00734 optimization, 0 shortcut expansion, 0.00155 checking, 3.1e-06 computing indexes, 0.00282 misc.) + 0 I/O.
+pp28-domotica3_command148 neer deur slaapkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command148 is 1.14981 over 245 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0528 seconds taken in nnet3 compilation total (breakdown: 0.0415 compilation, 0.00716 optimization, 0 shortcut expansion, 0.00142 checking, 2.86e-06 computing indexes, 0.00271 misc.) + 0 I/O.
+pp28-domotica3_command149 al de lichten slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command149 is 1.17209 over 229 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0889 seconds taken in nnet3 compilation total (breakdown: 0.073 compilation, 0.00898 optimization, 0 shortcut expansion, 0.00173 checking, 5.25e-06 computing indexes, 0.00511 misc.) + 0 I/O.
+pp28-domotica3_command15 al achterdeur naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command15 is 1.12515 over 301 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0573 seconds taken in nnet3 compilation total (breakdown: 0.0459 compilation, 0.00682 optimization, 0 shortcut expansion, 0.00141 checking, 4.77e-06 computing indexes, 0.00325 misc.) + 0 I/O.
+pp28-domotica3_command150 al de lichten uit in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command150 is 1.21232 over 248 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0538 seconds taken in nnet3 compilation total (breakdown: 0.0426 compilation, 0.00681 optimization, 0 shortcut expansion, 0.00136 checking, 2.86e-06 computing indexes, 0.00297 misc.) + 0 I/O.
+pp28-domotica3_command151 uit in staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command151 is 1.07822 over 210 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.078 seconds taken in nnet3 compilation total (breakdown: 0.0629 compilation, 0.00914 optimization, 0 shortcut expansion, 0.00177 checking, 5.01e-06 computing indexes, 0.00424 misc.) + 0 I/O.
+pp28-domotica3_command152 rolluiken neer staande lamp op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command152 is 1.00318 over 227 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0865 seconds taken in nnet3 compilation total (breakdown: 0.0712 compilation, 0.009 optimization, 0 shortcut expansion, 0.00171 checking, 6.91e-06 computing indexes, 0.00455 misc.) + 0 I/O.
+pp28-domotica3_command153 al de staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command153 is 1.07758 over 224 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0634 seconds taken in nnet3 compilation total (breakdown: 0.0513 compilation, 0.00701 optimization, 0 shortcut expansion, 0.00123 checking, 4.29e-06 computing indexes, 0.00386 misc.) + 0 I/O.
+pp28-domotica3_command154 al de thermostaat chauffage op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command154 is 1.07861 over 327 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0704 seconds taken in nnet3 compilation total (breakdown: 0.0582 compilation, 0.00682 optimization, 0 shortcut expansion, 0.0013 checking, 4.05e-06 computing indexes, 0.00411 misc.) + 0 I/O.
+pp28-domotica3_command155 uit in de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command155 is 1.08626 over 167 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0879 seconds taken in nnet3 compilation total (breakdown: 0.0724 compilation, 0.00949 optimization, 0 shortcut expansion, 0.00177 checking, 5.01e-06 computing indexes, 0.00417 misc.) + 0 I/O.
+pp28-domotica3_command157 uit in de open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command157 is 1.45335 over 173 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0732 seconds taken in nnet3 compilation total (breakdown: 0.0614 compilation, 0.00692 optimization, 0 shortcut expansion, 0.00128 checking, 4.05e-06 computing indexes, 0.00356 misc.) + 0 I/O.
+pp28-domotica3_command159 al de woonkamer licht 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command159 is 1.0809 over 246 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0738 seconds taken in nnet3 compilation total (breakdown: 0.0576 compilation, 0.00958 optimization, 0 shortcut expansion, 0.00196 checking, 4.05e-06 computing indexes, 0.0046 misc.) + 0 I/O.
+pp28-domotica3_command16 rolluik omhoog deur in neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command16 is 1.14191 over 318 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.066 seconds taken in nnet3 compilation total (breakdown: 0.0532 compilation, 0.00676 optimization, 0 shortcut expansion, 0.00125 checking, 4.05e-06 computing indexes, 0.00476 misc.) + 0 I/O.
+pp28-domotica3_command160 al de lichten in de open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command160 is 1.12064 over 316 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0615 seconds taken in nnet3 compilation total (breakdown: 0.0503 compilation, 0.00663 optimization, 0 shortcut expansion, 0.00129 checking, 5.25e-06 computing indexes, 0.00328 misc.) + 0 I/O.
+pp28-domotica3_command161 uit in de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command161 is 1.204 over 206 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.086 seconds taken in nnet3 compilation total (breakdown: 0.068 compilation, 0.0108 optimization, 0 shortcut expansion, 0.00212 checking, 3.81e-06 computing indexes, 0.00512 misc.) + 0 I/O.
+pp28-domotica3_command162 uit in de badkamer aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command162 is 1.22501 over 274 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0905 seconds taken in nnet3 compilation total (breakdown: 0.0728 compilation, 0.01 optimization, 0 shortcut expansion, 0.00202 checking, 3.81e-06 computing indexes, 0.00563 misc.) + 0 I/O.
+pp28-domotica3_command163 uit in de badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command163 is 1.09525 over 214 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0781 seconds taken in nnet3 compilation total (breakdown: 0.0632 compilation, 0.0087 optimization, 0 shortcut expansion, 0.00168 checking, 5.25e-06 computing indexes, 0.00454 misc.) + 0 I/O.
+pp28-domotica3_command164 al de lichten in de badkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command164 is 1.16526 over 238 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0536 seconds taken in nnet3 compilation total (breakdown: 0.0419 compilation, 0.00742 optimization, 0 shortcut expansion, 0.00157 checking, 3.81e-06 computing indexes, 0.00271 misc.) + 0 I/O.
+pp28-domotica3_command165 op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command165 is 1.12328 over 271 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0933 seconds taken in nnet3 compilation total (breakdown: 0.0763 compilation, 0.00882 optimization, 0 shortcut expansion, 0.00178 checking, 7.87e-06 computing indexes, 0.00646 misc.) + 0 I/O.
+pp28-domotica3_command166 uit op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command166 is 1.22815 over 242 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0658 seconds taken in nnet3 compilation total (breakdown: 0.0503 compilation, 0.01 optimization, 0 shortcut expansion, 0.00204 checking, 3.81e-06 computing indexes, 0.00344 misc.) + 0 I/O.
+pp28-domotica3_command167 op stand twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command167 is 1.05687 over 229 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0951 seconds taken in nnet3 compilation total (breakdown: 0.0783 compilation, 0.00914 optimization, 0 shortcut expansion, 0.00167 checking, 5.01e-06 computing indexes, 0.006 misc.) + 0 I/O.
+pp28-domotica3_command168 uit neer licht in de keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command168 is 1.26228 over 217 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0894 seconds taken in nnet3 compilation total (breakdown: 0.0727 compilation, 0.00979 optimization, 0 shortcut expansion, 0.00179 checking, 5.01e-06 computing indexes, 0.00516 misc.) + 0 I/O.
+pp28-domotica3_command169 uit in neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command169 is 1.12305 over 187 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0704 seconds taken in nnet3 compilation total (breakdown: 0.0583 compilation, 0.00728 optimization, 0 shortcut expansion, 0.00146 checking, 2.86e-06 computing indexes, 0.00339 misc.) + 0 I/O.
+pp28-domotica3_command17 drie rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command17 is 1.27598 over 230 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0963 seconds taken in nnet3 compilation total (breakdown: 0.0794 compilation, 0.00937 optimization, 0 shortcut expansion, 0.00171 checking, 4.05e-06 computing indexes, 0.00581 misc.) + 0 I/O.
+pp28-domotica3_command170 al de rolluiken slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command170 is 1.00352 over 256 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0666 seconds taken in nnet3 compilation total (breakdown: 0.0514 compilation, 0.00884 optimization, 0 shortcut expansion, 0.00173 checking, 5.96e-06 computing indexes, 0.00466 misc.) + 0 I/O.
+pp28-domotica3_command171 al rolluiken omhoog 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command171 is 1.00875 over 284 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0554 seconds taken in nnet3 compilation total (breakdown: 0.0429 compilation, 0.00841 optimization, 0 shortcut expansion, 0.00139 checking, 4.05e-06 computing indexes, 0.00274 misc.) + 0 I/O.
+pp28-domotica3_command172 uit in naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command172 is 1.02231 over 272 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.117 seconds taken in nnet3 compilation total (breakdown: 0.0957 compilation, 0.0108 optimization, 0 shortcut expansion, 0.00205 checking, 5.72e-06 computing indexes, 0.0082 misc.) + 0 I/O.
+pp28-domotica3_command173 in de 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command173 is 1.05119 over 287 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0587 seconds taken in nnet3 compilation total (breakdown: 0.0448 compilation, 0.00889 optimization, 0 shortcut expansion, 0.00191 checking, 5.01e-06 computing indexes, 0.00315 misc.) + 0 I/O.
+pp28-domotica3_command174 al de rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command174 is 1.12686 over 240 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0734 seconds taken in nnet3 compilation total (breakdown: 0.0555 compilation, 0.0105 optimization, 0 shortcut expansion, 0.00245 checking, 3.81e-06 computing indexes, 0.00489 misc.) + 0 I/O.
+pp28-domotica3_command175 rolluik omhoog in en neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command175 is 1.15554 over 308 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0914 seconds taken in nnet3 compilation total (breakdown: 0.0703 compilation, 0.0142 optimization, 0 shortcut expansion, 0.00161 checking, 4.05e-06 computing indexes, 0.00519 misc.) + 0 I/O.
+pp28-domotica3_command176 deur slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command176 is 1.10383 over 242 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0845 seconds taken in nnet3 compilation total (breakdown: 0.0654 compilation, 0.0117 optimization, 0 shortcut expansion, 0.00214 checking, 5.72e-06 computing indexes, 0.0053 misc.) + 0 I/O.
+pp28-domotica3_command177 al deur slaapkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command177 is 1.17952 over 223 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.106 seconds taken in nnet3 compilation total (breakdown: 0.0868 compilation, 0.0116 optimization, 0 shortcut expansion, 0.00223 checking, 5.25e-06 computing indexes, 0.00581 misc.) + 0 I/O.
+pp28-domotica3_command178 neer licht aan slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command178 is 1.20489 over 243 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0807 seconds taken in nnet3 compilation total (breakdown: 0.0656 compilation, 0.00941 optimization, 0 shortcut expansion, 0.00183 checking, 3.81e-06 computing indexes, 0.00392 misc.) + 0 I/O.
+pp28-domotica3_command179 neer licht uit in 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command179 is 1.14528 over 270 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0776 seconds taken in nnet3 compilation total (breakdown: 0.0642 compilation, 0.00737 optimization, 0 shortcut expansion, 0.00139 checking, 4.05e-06 computing indexes, 0.00467 misc.) + 0 I/O.
+pp28-domotica3_command18 al de lichten 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command18 is 1.07462 over 261 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0639 seconds taken in nnet3 compilation total (breakdown: 0.0509 compilation, 0.00744 optimization, 0 shortcut expansion, 0.00159 checking, 5.25e-06 computing indexes, 0.00392 misc.) + 0 I/O.
+pp28-domotica3_command180 staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command180 is 1.14539 over 231 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.104 seconds taken in nnet3 compilation total (breakdown: 0.0867 compilation, 0.00953 optimization, 0 shortcut expansion, 0.00195 checking, 5.01e-06 computing indexes, 0.0062 misc.) + 0 I/O.
+pp28-domotica3_command181 uit staande lamp op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command181 is 1.12016 over 242 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0625 seconds taken in nnet3 compilation total (breakdown: 0.0484 compilation, 0.00914 optimization, 0 shortcut expansion, 0.00185 checking, 4.05e-06 computing indexes, 0.0031 misc.) + 0 I/O.
+pp28-domotica3_command182 lamp op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command182 is 1.20231 over 231 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.115 seconds taken in nnet3 compilation total (breakdown: 0.0972 compilation, 0.0106 optimization, 0 shortcut expansion, 0.00191 checking, 4.05e-06 computing indexes, 0.00567 misc.) + 0 I/O.
+pp28-domotica3_command183 thermostaat op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command183 is 1.153 over 346 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0957 seconds taken in nnet3 compilation total (breakdown: 0.0776 compilation, 0.0105 optimization, 0 shortcut expansion, 0.00241 checking, 5.25e-06 computing indexes, 0.0052 misc.) + 0 I/O.
+pp28-domotica3_command184 uit in de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command184 is 1.30138 over 238 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0722 seconds taken in nnet3 compilation total (breakdown: 0.0569 compilation, 0.00925 optimization, 0 shortcut expansion, 0.00179 checking, 5.01e-06 computing indexes, 0.00423 misc.) + 0 I/O.
+pp28-domotica3_command185 deur open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command185 is 1.66463 over 269 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0935 seconds taken in nnet3 compilation total (breakdown: 0.0759 compilation, 0.00938 optimization, 0 shortcut expansion, 0.00175 checking, 4.05e-06 computing indexes, 0.00648 misc.) + 0 I/O.
+pp28-domotica3_command186 in de woonkamer aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command186 is 1.27336 over 275 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0743 seconds taken in nnet3 compilation total (breakdown: 0.0606 compilation, 0.00748 optimization, 0 shortcut expansion, 0.00151 checking, 5.25e-06 computing indexes, 0.00475 misc.) + 0 I/O.
+pp28-domotica3_command187 uit in lichten in de woonkamer en keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command187 is 1.17061 over 307 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0663 seconds taken in nnet3 compilation total (breakdown: 0.0536 compilation, 0.00731 optimization, 0 shortcut expansion, 0.00152 checking, 5.96e-06 computing indexes, 0.0039 misc.) + 0 I/O.
+pp28-domotica3_command188 uit in al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command188 is 1.31656 over 205 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0739 seconds taken in nnet3 compilation total (breakdown: 0.0585 compilation, 0.0097 optimization, 0 shortcut expansion, 0.00188 checking, 4.29e-06 computing indexes, 0.00379 misc.) + 0 I/O.
+pp28-domotica3_command189 dicht van badkamer aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command189 is 1.16762 over 244 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0758 seconds taken in nnet3 compilation total (breakdown: 0.059 compilation, 0.00983 optimization, 0 shortcut expansion, 0.00201 checking, 5.01e-06 computing indexes, 0.00497 misc.) + 0 I/O.
+pp28-domotica3_command19 rolluiken licht aan slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command19 is 1.16377 over 237 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0483 seconds taken in nnet3 compilation total (breakdown: 0.0379 compilation, 0.00694 optimization, 0 shortcut expansion, 0.00131 checking, 2.86e-06 computing indexes, 0.00217 misc.) + 0 I/O.
+pp28-domotica3_command190 al de badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command190 is 1.07743 over 212 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0585 seconds taken in nnet3 compilation total (breakdown: 0.0462 compilation, 0.0073 optimization, 0 shortcut expansion, 0.00144 checking, 3.1e-06 computing indexes, 0.0036 misc.) + 0 I/O.
+pp28-domotica3_command191 al uit in licht aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command191 is 1.22842 over 242 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0735 seconds taken in nnet3 compilation total (breakdown: 0.0584 compilation, 0.0092 optimization, 0 shortcut expansion, 0.00184 checking, 5.96e-06 computing indexes, 0.00413 misc.) + 0 I/O.
+pp28-domotica3_command192 al de op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command192 is 1.22472 over 230 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0661 seconds taken in nnet3 compilation total (breakdown: 0.0534 compilation, 0.00707 optimization, 0 shortcut expansion, 0.00144 checking, 2.86e-06 computing indexes, 0.00412 misc.) + 0 I/O.
+pp28-domotica3_command193 op stand twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command193 is 1.02928 over 235 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0349 seconds taken in nnet3 compilation total (breakdown: 0.0292 compilation, 0.00346 optimization, 0 shortcut expansion, 0.000623 checking, 1.91e-06 computing indexes, 0.00167 misc.) + 0 I/O.
+pp28-domotica3_command194 al de op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command194 is 1.12204 over 224 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0837 seconds taken in nnet3 compilation total (breakdown: 0.0688 compilation, 0.00865 optimization, 0 shortcut expansion, 0.00163 checking, 4.05e-06 computing indexes, 0.00463 misc.) + 0 I/O.
+pp28-domotica3_command195 al de lichten in de keuken een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command195 is 1.14689 over 210 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.057 seconds taken in nnet3 compilation total (breakdown: 0.0454 compilation, 0.00679 optimization, 0 shortcut expansion, 0.00154 checking, 2.86e-06 computing indexes, 0.00323 misc.) + 0 I/O.
+pp28-domotica3_command196 uit in lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command196 is 1.02439 over 196 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0645 seconds taken in nnet3 compilation total (breakdown: 0.048 compilation, 0.0107 optimization, 0 shortcut expansion, 0.00224 checking, 4.77e-06 computing indexes, 0.00358 misc.) + 0 I/O.
+pp28-domotica3_command197 in slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command197 is 1.12522 over 293 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0688 seconds taken in nnet3 compilation total (breakdown: 0.0546 compilation, 0.00887 optimization, 0 shortcut expansion, 0.00166 checking, 4.05e-06 computing indexes, 0.00364 misc.) + 0 I/O.
+pp28-domotica3_command198 rolluik omhoog 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command198 is 0.873699 over 262 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0754 seconds taken in nnet3 compilation total (breakdown: 0.0596 compilation, 0.00943 optimization, 0 shortcut expansion, 0.00169 checking, 3.81e-06 computing indexes, 0.00467 misc.) + 0 I/O.
+pp28-domotica3_command199 al rolluik achterdeur naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command199 is 1.00451 over 263 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0838 seconds taken in nnet3 compilation total (breakdown: 0.0683 compilation, 0.0089 optimization, 0 shortcut expansion, 0.00171 checking, 5.01e-06 computing indexes, 0.00485 misc.) + 0 I/O.
+pp28-domotica3_command2 al in de woonkamer en keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command2 is 1.20131 over 344 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0586 seconds taken in nnet3 compilation total (breakdown: 0.0458 compilation, 0.00757 optimization, 0 shortcut expansion, 0.00157 checking, 3.81e-06 computing indexes, 0.00363 misc.) + 0 I/O.
+pp28-domotica3_command20 al de lichten uit in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command20 is 1.15768 over 247 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.075 seconds taken in nnet3 compilation total (breakdown: 0.0594 compilation, 0.00916 optimization, 0 shortcut expansion, 0.00178 checking, 4.77e-06 computing indexes, 0.00466 misc.) + 0 I/O.
+pp28-domotica3_command200 al rolluik omhoog deur neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command200 is 1.05833 over 295 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0643 seconds taken in nnet3 compilation total (breakdown: 0.053 compilation, 0.00715 optimization, 0 shortcut expansion, 0.00148 checking, 3.1e-06 computing indexes, 0.00268 misc.) + 0 I/O.
+pp28-domotica3_command201 beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command201 is 1.04446 over 210 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0805 seconds taken in nnet3 compilation total (breakdown: 0.0646 compilation, 0.00919 optimization, 0 shortcut expansion, 0.00189 checking, 2.86e-06 computing indexes, 0.00479 misc.) + 0 I/O.
+pp28-domotica3_command202 achterdeur naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command202 is 0.963862 over 284 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.051 seconds taken in nnet3 compilation total (breakdown: 0.0397 compilation, 0.00725 optimization, 0 shortcut expansion, 0.00138 checking, 4.29e-06 computing indexes, 0.00263 misc.) + 0 I/O.
+pp28-domotica3_command203 al de keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command203 is 1.0028 over 225 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0836 seconds taken in nnet3 compilation total (breakdown: 0.069 compilation, 0.00858 optimization, 0 shortcut expansion, 0.00155 checking, 4.77e-06 computing indexes, 0.00451 misc.) + 0 I/O.
+pp28-domotica3_command204 al de deur open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command204 is 1.09373 over 222 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0724 seconds taken in nnet3 compilation total (breakdown: 0.0612 compilation, 0.00684 optimization, 0 shortcut expansion, 0.00133 checking, 2.86e-06 computing indexes, 0.00303 misc.) + 0 I/O.
+pp28-domotica3_command205 neer licht aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command205 is 1.20269 over 252 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0789 seconds taken in nnet3 compilation total (breakdown: 0.0638 compilation, 0.0089 optimization, 0 shortcut expansion, 0.00186 checking, 5.01e-06 computing indexes, 0.00435 misc.) + 0 I/O.
+pp28-domotica3_command206 neer licht uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command206 is 1.18315 over 250 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0714 seconds taken in nnet3 compilation total (breakdown: 0.0569 compilation, 0.00876 optimization, 0 shortcut expansion, 0.00178 checking, 4.77e-06 computing indexes, 0.00392 misc.) + 0 I/O.
+pp28-domotica3_command209 staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command209 is 1.19393 over 209 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0778 seconds taken in nnet3 compilation total (breakdown: 0.0625 compilation, 0.00902 optimization, 0 shortcut expansion, 0.00183 checking, 5.25e-06 computing indexes, 0.00445 misc.) + 0 I/O.
+pp28-domotica3_command21 rolluiken staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command21 is 1.3403 over 269 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0739 seconds taken in nnet3 compilation total (breakdown: 0.0623 compilation, 0.00681 optimization, 0 shortcut expansion, 0.00129 checking, 3.81e-06 computing indexes, 0.00352 misc.) + 0 I/O.
+pp28-domotica3_command210 uit staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command210 is 0.97355 over 201 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0713 seconds taken in nnet3 compilation total (breakdown: 0.0563 compilation, 0.00903 optimization, 0 shortcut expansion, 0.00185 checking, 5.25e-06 computing indexes, 0.00407 misc.) + 0 I/O.
+pp28-domotica3_command211 al de stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command211 is 1.11833 over 196 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.068 seconds taken in nnet3 compilation total (breakdown: 0.0539 compilation, 0.00885 optimization, 0 shortcut expansion, 0.00162 checking, 4.05e-06 computing indexes, 0.0036 misc.) + 0 I/O.
+pp28-domotica3_command212 al de staande lamp op eenentwintig 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command212 is 1.01991 over 295 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0705 seconds taken in nnet3 compilation total (breakdown: 0.0555 compilation, 0.00882 optimization, 0 shortcut expansion, 0.00171 checking, 5.25e-06 computing indexes, 0.00455 misc.) + 0 I/O.
+pp28-domotica3_command214 in de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command214 is 1.0892 over 194 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0498 seconds taken in nnet3 compilation total (breakdown: 0.039 compilation, 0.00709 optimization, 0 shortcut expansion, 0.00139 checking, 2.86e-06 computing indexes, 0.00231 misc.) + 0 I/O.
+pp28-domotica3_command22 al staande lamp op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command22 is 1.25217 over 253 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.066 seconds taken in nnet3 compilation total (breakdown: 0.0543 compilation, 0.00703 optimization, 0 shortcut expansion, 0.00142 checking, 3.81e-06 computing indexes, 0.00321 misc.) + 0 I/O.
+pp28-domotica3_command23 staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command23 is 1.16904 over 247 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0783 seconds taken in nnet3 compilation total (breakdown: 0.0622 compilation, 0.00973 optimization, 0 shortcut expansion, 0.00216 checking, 5.96e-06 computing indexes, 0.00427 misc.) + 0 I/O.
+pp28-domotica3_command24 al de op eenentwintig 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command24 is 1.1304 over 331 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.049 seconds taken in nnet3 compilation total (breakdown: 0.0376 compilation, 0.0073 optimization, 0 shortcut expansion, 0.00151 checking, 4.05e-06 computing indexes, 0.00255 misc.) + 0 I/O.
+pp28-domotica3_command25 uit in de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command25 is 1.19924 over 239 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0668 seconds taken in nnet3 compilation total (breakdown: 0.0521 compilation, 0.0091 optimization, 0 shortcut expansion, 0.00191 checking, 2.86e-06 computing indexes, 0.00374 misc.) + 0 I/O.
+pp28-domotica3_command26 al de open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command26 is 1.36083 over 197 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0635 seconds taken in nnet3 compilation total (breakdown: 0.0499 compilation, 0.00859 optimization, 0 shortcut expansion, 0.00164 checking, 4.05e-06 computing indexes, 0.00341 misc.) + 0 I/O.
+pp28-domotica3_command27 al de lichten in de keuken een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command27 is 1.16311 over 327 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0978 seconds taken in nnet3 compilation total (breakdown: 0.0793 compilation, 0.00953 optimization, 0 shortcut expansion, 0.00188 checking, 6.2e-06 computing indexes, 0.00708 misc.) + 0 I/O.
+pp28-domotica3_command28 uit in de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command28 is 1.42187 over 264 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0641 seconds taken in nnet3 compilation total (breakdown: 0.0524 compilation, 0.00699 optimization, 0 shortcut expansion, 0.0014 checking, 1.91e-06 computing indexes, 0.00332 misc.) + 0 I/O.
+pp28-domotica3_command29 in deur dicht van badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command29 is 1.26308 over 325 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0741 seconds taken in nnet3 compilation total (breakdown: 0.0595 compilation, 0.00808 optimization, 0 shortcut expansion, 0.00138 checking, 5.25e-06 computing indexes, 0.00518 misc.) + 0 I/O.
+pp28-domotica3_command3 lichten in de woonkamer en keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command3 is 1.2689 over 369 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0911 seconds taken in nnet3 compilation total (breakdown: 0.0752 compilation, 0.00886 optimization, 0 shortcut expansion, 0.00172 checking, 5.25e-06 computing indexes, 0.00523 misc.) + 0 I/O.
+pp28-domotica3_command30 uit in de badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command30 is 1.31106 over 265 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.084 seconds taken in nnet3 compilation total (breakdown: 0.0681 compilation, 0.00913 optimization, 0 shortcut expansion, 0.00168 checking, 4.05e-06 computing indexes, 0.00513 misc.) + 0 I/O.
+pp28-domotica3_command31 rolluiken licht in de aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command31 is 1.21087 over 257 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0771 seconds taken in nnet3 compilation total (breakdown: 0.0615 compilation, 0.00892 optimization, 0 shortcut expansion, 0.00162 checking, 5.01e-06 computing indexes, 0.00503 misc.) + 0 I/O.
+pp28-domotica3_command32 al de hoofdeinde op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command32 is 1.22678 over 274 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0658 seconds taken in nnet3 compilation total (breakdown: 0.054 compilation, 0.00677 optimization, 0 shortcut expansion, 0.00132 checking, 4.77e-06 computing indexes, 0.0037 misc.) + 0 I/O.
+pp28-domotica3_command33 op stand twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command33 is 1.21428 over 303 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0612 seconds taken in nnet3 compilation total (breakdown: 0.0487 compilation, 0.00745 optimization, 0 shortcut expansion, 0.00155 checking, 4.05e-06 computing indexes, 0.0035 misc.) + 0 I/O.
+pp28-domotica3_command34 in de op stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command34 is 1.18198 over 276 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0868 seconds taken in nnet3 compilation total (breakdown: 0.0719 compilation, 0.00876 optimization, 0 shortcut expansion, 0.00157 checking, 4.05e-06 computing indexes, 0.00457 misc.) + 0 I/O.
+pp28-domotica3_command35 licht in de keuken aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command35 is 1.30747 over 269 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0621 seconds taken in nnet3 compilation total (breakdown: 0.0505 compilation, 0.00687 optimization, 0 shortcut expansion, 0.00126 checking, 3.1e-06 computing indexes, 0.00339 misc.) + 0 I/O.
+pp28-domotica3_command36 neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command36 is 1.24549 over 227 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0864 seconds taken in nnet3 compilation total (breakdown: 0.0712 compilation, 0.00894 optimization, 0 shortcut expansion, 0.00165 checking, 4.05e-06 computing indexes, 0.0046 misc.) + 0 I/O.
+pp28-domotica3_command37 in slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command37 is 1.03151 over 297 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0738 seconds taken in nnet3 compilation total (breakdown: 0.059 compilation, 0.00898 optimization, 0 shortcut expansion, 0.00188 checking, 3.81e-06 computing indexes, 0.00395 misc.) + 0 I/O.
+pp28-domotica3_command38 rolluiken slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command38 is 1.12801 over 310 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0825 seconds taken in nnet3 compilation total (breakdown: 0.065 compilation, 0.00963 optimization, 0 shortcut expansion, 0.00183 checking, 4.77e-06 computing indexes, 0.00601 misc.) + 0 I/O.
+pp28-domotica3_command4 al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command4 is 1.35025 over 231 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0678 seconds taken in nnet3 compilation total (breakdown: 0.0556 compilation, 0.00687 optimization, 0 shortcut expansion, 0.00131 checking, 3.1e-06 computing indexes, 0.004 misc.) + 0 I/O.
+pp28-domotica3_command40 rolluik achterdeur naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command40 is 1.07988 over 294 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0746 seconds taken in nnet3 compilation total (breakdown: 0.0587 compilation, 0.00954 optimization, 0 shortcut expansion, 0.00201 checking, 5.96e-06 computing indexes, 0.00436 misc.) + 0 I/O.
+pp28-domotica3_command42 uit in de in neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command42 is 1.04468 over 274 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0835 seconds taken in nnet3 compilation total (breakdown: 0.068 compilation, 0.00874 optimization, 0 shortcut expansion, 0.00167 checking, 5.25e-06 computing indexes, 0.00515 misc.) + 0 I/O.
+pp28-domotica3_command43 in rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command43 is 1.12553 over 226 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0702 seconds taken in nnet3 compilation total (breakdown: 0.0579 compilation, 0.00697 optimization, 0 shortcut expansion, 0.00133 checking, 3.81e-06 computing indexes, 0.00398 misc.) + 0 I/O.
+pp28-domotica3_command44 in living 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command44 is 1.00961 over 264 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.085 seconds taken in nnet3 compilation total (breakdown: 0.0691 compilation, 0.00917 optimization, 0 shortcut expansion, 0.00183 checking, 4.05e-06 computing indexes, 0.00487 misc.) + 0 I/O.
+pp28-domotica3_command45 rolluik licht aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command45 is 1.18644 over 239 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0689 seconds taken in nnet3 compilation total (breakdown: 0.0539 compilation, 0.00937 optimization, 0 shortcut expansion, 0.00179 checking, 5.01e-06 computing indexes, 0.00379 misc.) + 0 I/O.
+pp28-domotica3_command46 rolluiken licht uit in slaapkamer aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command46 is 1.04017 over 242 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0521 seconds taken in nnet3 compilation total (breakdown: 0.0402 compilation, 0.00735 optimization, 0 shortcut expansion, 0.0016 checking, 4.05e-06 computing indexes, 0.00292 misc.) + 0 I/O.
+pp28-domotica3_command47 al staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command47 is 1.23465 over 218 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0815 seconds taken in nnet3 compilation total (breakdown: 0.0668 compilation, 0.00854 optimization, 0 shortcut expansion, 0.00155 checking, 4.05e-06 computing indexes, 0.00464 misc.) + 0 I/O.
+pp28-domotica3_command48 staande lamp op twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command48 is 1.16749 over 230 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0614 seconds taken in nnet3 compilation total (breakdown: 0.0505 compilation, 0.00653 optimization, 0 shortcut expansion, 0.0012 checking, 2.86e-06 computing indexes, 0.00312 misc.) + 0 I/O.
+pp28-domotica3_command49 in staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command49 is 1.22636 over 222 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0904 seconds taken in nnet3 compilation total (breakdown: 0.0745 compilation, 0.00852 optimization, 0 shortcut expansion, 0.00171 checking, 5.25e-06 computing indexes, 0.00572 misc.) + 0 I/O.
+pp28-domotica3_command5 rolluiken deur dicht van badkamer aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command5 is 1.25672 over 268 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0629 seconds taken in nnet3 compilation total (breakdown: 0.0516 compilation, 0.00671 optimization, 0 shortcut expansion, 0.00124 checking, 3.1e-06 computing indexes, 0.00333 misc.) + 0 I/O.
+pp28-domotica3_command50 uit in thermostaat chauffage op eenentwintig 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command50 is 1.16665 over 297 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0706 seconds taken in nnet3 compilation total (breakdown: 0.0559 compilation, 0.00912 optimization, 0 shortcut expansion, 0.00175 checking, 5.01e-06 computing indexes, 0.00387 misc.) + 0 I/O.
+pp28-domotica3_command51 in de voordeur dicht toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command51 is 1.38761 over 231 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0868 seconds taken in nnet3 compilation total (breakdown: 0.0722 compilation, 0.00799 optimization, 0 shortcut expansion, 0.0016 checking, 4.77e-06 computing indexes, 0.00501 misc.) + 0 I/O.
+pp28-domotica3_command52 uit in de open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command52 is 1.54756 over 191 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0681 seconds taken in nnet3 compilation total (breakdown: 0.054 compilation, 0.00878 optimization, 0 shortcut expansion, 0.00166 checking, 4.77e-06 computing indexes, 0.0037 misc.) + 0 I/O.
+pp28-domotica3_command53 al de lichten in de keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command53 is 1.10771 over 318 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0853 seconds taken in nnet3 compilation total (breakdown: 0.069 compilation, 0.00933 optimization, 0 shortcut expansion, 0.00176 checking, 5.01e-06 computing indexes, 0.00523 misc.) + 0 I/O.
+pp28-domotica3_command54 in de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command54 is 1.31083 over 213 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.062 seconds taken in nnet3 compilation total (breakdown: 0.05 compilation, 0.007 optimization, 0 shortcut expansion, 0.00137 checking, 1.91e-06 computing indexes, 0.00357 misc.) + 0 I/O.
+pp28-domotica3_command55 al de badkamer aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command55 is 1.2145 over 247 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0534 seconds taken in nnet3 compilation total (breakdown: 0.0418 compilation, 0.00731 optimization, 0 shortcut expansion, 0.0015 checking, 3.81e-06 computing indexes, 0.00272 misc.) + 0 I/O.
+pp28-domotica3_command56 al uit in deur badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command56 is 1.31395 over 236 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0682 seconds taken in nnet3 compilation total (breakdown: 0.0538 compilation, 0.00908 optimization, 0 shortcut expansion, 0.00185 checking, 5.25e-06 computing indexes, 0.00352 misc.) + 0 I/O.
+pp28-domotica3_command57 al de lichten in de keuken aan 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command57 is 1.2989 over 231 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0628 seconds taken in nnet3 compilation total (breakdown: 0.0516 compilation, 0.00653 optimization, 0 shortcut expansion, 0.00124 checking, 3.81e-06 computing indexes, 0.00342 misc.) + 0 I/O.
+pp28-domotica3_command58 hoofdeinde op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command58 is 1.27235 over 284 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0675 seconds taken in nnet3 compilation total (breakdown: 0.0521 compilation, 0.00934 optimization, 0 shortcut expansion, 0.00181 checking, 4.05e-06 computing indexes, 0.00422 misc.) + 0 I/O.
+pp28-domotica3_command59 rolluiken neer op op stand twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command59 is 1.42516 over 276 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.066 seconds taken in nnet3 compilation total (breakdown: 0.054 compilation, 0.00689 optimization, 0 shortcut expansion, 0.00134 checking, 4.05e-06 computing indexes, 0.00375 misc.) + 0 I/O.
+pp28-domotica3_command6 rolluiken neer deur badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command6 is 1.47874 over 265 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0626 seconds taken in nnet3 compilation total (breakdown: 0.0512 compilation, 0.00693 optimization, 0 shortcut expansion, 0.00126 checking, 3.1e-06 computing indexes, 0.00319 misc.) + 0 I/O.
+pp28-domotica3_command60 uit in op stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command60 is 1.33389 over 261 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0822 seconds taken in nnet3 compilation total (breakdown: 0.0664 compilation, 0.00886 optimization, 0 shortcut expansion, 0.00169 checking, 4.77e-06 computing indexes, 0.00521 misc.) + 0 I/O.
+pp28-domotica3_command61 al de lichten in de keuken 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command61 is 1.34155 over 258 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0776 seconds taken in nnet3 compilation total (breakdown: 0.0626 compilation, 0.00867 optimization, 0 shortcut expansion, 0.00175 checking, 3.81e-06 computing indexes, 0.00459 misc.) + 0 I/O.
+pp28-domotica3_command62 in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command62 is 1.04171 over 235 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0444 seconds taken in nnet3 compilation total (breakdown: 0.0388 compilation, 0.00346 optimization, 0 shortcut expansion, 0.000696 checking, 1.91e-06 computing indexes, 0.00148 misc.) + 0 I/O.
+pp28-domotica3_command63 al slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command63 is 1.10262 over 282 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.053 seconds taken in nnet3 compilation total (breakdown: 0.0435 compilation, 0.00535 optimization, 0 shortcut expansion, 0.00106 checking, 2.86e-06 computing indexes, 0.00306 misc.) + 0 I/O.
+pp28-domotica3_command64 in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command64 is 1.05396 over 365 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0903 seconds taken in nnet3 compilation total (breakdown: 0.0735 compilation, 0.00892 optimization, 0 shortcut expansion, 0.00171 checking, 5.96e-06 computing indexes, 0.00613 misc.) + 0 I/O.
+pp28-domotica3_command65 drie achterdeur naar neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command65 is 1.06769 over 289 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0725 seconds taken in nnet3 compilation total (breakdown: 0.0581 compilation, 0.00886 optimization, 0 shortcut expansion, 0.00169 checking, 3.81e-06 computing indexes, 0.00388 misc.) + 0 I/O.
+pp28-domotica3_command67 rolluiken omhoog deur neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command67 is 1.03464 over 294 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0739 seconds taken in nnet3 compilation total (breakdown: 0.0586 compilation, 0.00918 optimization, 0 shortcut expansion, 0.00198 checking, 5.96e-06 computing indexes, 0.00415 misc.) + 0 I/O.
+pp28-domotica3_command68 neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command68 is 1.09748 over 225 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0977 seconds taken in nnet3 compilation total (breakdown: 0.0802 compilation, 0.0102 optimization, 0 shortcut expansion, 0.00192 checking, 5.01e-06 computing indexes, 0.00546 misc.) + 0 I/O.
+pp28-domotica3_command69 in de lichten in de lichten 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command69 is 1.08845 over 320 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0731 seconds taken in nnet3 compilation total (breakdown: 0.0612 compilation, 0.00677 optimization, 0 shortcut expansion, 0.0013 checking, 4.05e-06 computing indexes, 0.00387 misc.) + 0 I/O.
+pp28-domotica3_command7 al de lichten in de badkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command7 is 1.31169 over 306 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0828 seconds taken in nnet3 compilation total (breakdown: 0.0678 compilation, 0.00885 optimization, 0 shortcut expansion, 0.00157 checking, 4.77e-06 computing indexes, 0.00456 misc.) + 0 I/O.
+pp28-domotica3_command70 al rolluiken neer deur slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command70 is 1.26296 over 256 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0885 seconds taken in nnet3 compilation total (breakdown: 0.0708 compilation, 0.0107 optimization, 0 shortcut expansion, 0.00219 checking, 5.25e-06 computing indexes, 0.00485 misc.) + 0 I/O.
+pp28-domotica3_command71 al de lichten uit in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command71 is 1.16018 over 250 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.055 seconds taken in nnet3 compilation total (breakdown: 0.0435 compilation, 0.00707 optimization, 0 shortcut expansion, 0.00146 checking, 3.81e-06 computing indexes, 0.00305 misc.) + 0 I/O.
+pp28-domotica3_command72 staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command72 is 1.24574 over 243 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0471 seconds taken in nnet3 compilation total (breakdown: 0.0364 compilation, 0.00672 optimization, 0 shortcut expansion, 0.00132 checking, 4.77e-06 computing indexes, 0.00261 misc.) + 0 I/O.
+pp28-domotica3_command73 staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command73 is 1.3702 over 317 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0602 seconds taken in nnet3 compilation total (breakdown: 0.0487 compilation, 0.00686 optimization, 0 shortcut expansion, 0.00131 checking, 4.05e-06 computing indexes, 0.00336 misc.) + 0 I/O.
+pp28-domotica3_command74 neer staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command74 is 1.35571 over 235 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0526 seconds taken in nnet3 compilation total (breakdown: 0.0428 compilation, 0.00543 optimization, 0 shortcut expansion, 0.00101 checking, 2.86e-06 computing indexes, 0.00337 misc.) + 0 I/O.
+pp28-domotica3_command75 beneden thermostaat chauffage op eenentwintig 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command75 is 1.18264 over 334 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0682 seconds taken in nnet3 compilation total (breakdown: 0.0539 compilation, 0.00889 optimization, 0 shortcut expansion, 0.00174 checking, 4.29e-06 computing indexes, 0.00365 misc.) + 0 I/O.
+pp28-domotica3_command76 al de voordeur toe 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command76 is 1.28032 over 214 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0549 seconds taken in nnet3 compilation total (breakdown: 0.0443 compilation, 0.00648 optimization, 0 shortcut expansion, 0.00118 checking, 3.1e-06 computing indexes, 0.00297 misc.) + 0 I/O.
+pp28-domotica3_command77 drie een deur open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command77 is 1.25856 over 186 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0877 seconds taken in nnet3 compilation total (breakdown: 0.073 compilation, 0.00873 optimization, 0 shortcut expansion, 0.0016 checking, 5.01e-06 computing indexes, 0.00433 misc.) + 0 I/O.
+pp28-domotica3_command78 rolluik licht in de woonkamer en keuken uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command78 is 1.2542 over 378 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.047 seconds taken in nnet3 compilation total (breakdown: 0.0364 compilation, 0.007 optimization, 0 shortcut expansion, 0.00131 checking, 3.1e-06 computing indexes, 0.00231 misc.) + 0 I/O.
+pp28-domotica3_command79 uit in al de lichten uit 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command79 is 1.18915 over 200 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0701 seconds taken in nnet3 compilation total (breakdown: 0.0559 compilation, 0.00868 optimization, 0 shortcut expansion, 0.00185 checking, 5.01e-06 computing indexes, 0.0037 misc.) + 0 I/O.
+pp28-domotica3_command8 al hoofdeinde op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command8 is 1.29481 over 293 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.072 seconds taken in nnet3 compilation total (breakdown: 0.0572 compilation, 0.00914 optimization, 0 shortcut expansion, 0.00185 checking, 5.01e-06 computing indexes, 0.00386 misc.) + 0 I/O.
+pp28-domotica3_command80 uit in de lichten uit slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command80 is 1.06918 over 231 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0666 seconds taken in nnet3 compilation total (breakdown: 0.0549 compilation, 0.00686 optimization, 0 shortcut expansion, 0.00133 checking, 5.25e-06 computing indexes, 0.00356 misc.) + 0 I/O.
+pp28-domotica3_command81 uit in de badkamer open 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command81 is 1.05699 over 237 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0678 seconds taken in nnet3 compilation total (breakdown: 0.053 compilation, 0.00908 optimization, 0 shortcut expansion, 0.00176 checking, 5.25e-06 computing indexes, 0.00402 misc.) + 0 I/O.
+pp28-domotica3_command82 al de lichten in de badkamer al 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command82 is 1.2776 over 277 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0684 seconds taken in nnet3 compilation total (breakdown: 0.057 compilation, 0.00683 optimization, 0 shortcut expansion, 0.00124 checking, 4.05e-06 computing indexes, 0.00337 misc.) + 0 I/O.
+pp28-domotica3_command83 hoofdeinde op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command83 is 1.22583 over 253 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0754 seconds taken in nnet3 compilation total (breakdown: 0.0604 compilation, 0.0091 optimization, 0 shortcut expansion, 0.00181 checking, 4.77e-06 computing indexes, 0.00413 misc.) + 0 I/O.
+pp28-domotica3_command84 chauffage op stand drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command84 is 1.16517 over 275 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0669 seconds taken in nnet3 compilation total (breakdown: 0.0546 compilation, 0.00679 optimization, 0 shortcut expansion, 0.00131 checking, 3.34e-06 computing indexes, 0.00422 misc.) + 0 I/O.
+pp28-domotica3_command85 al toe op stand een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command85 is 1.2343 over 289 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.052 seconds taken in nnet3 compilation total (breakdown: 0.038 compilation, 0.00918 optimization, 0 shortcut expansion, 0.00167 checking, 3.1e-06 computing indexes, 0.00317 misc.) + 0 I/O.
+pp28-domotica3_command86 rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command86 is 1.32857 over 243 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0715 seconds taken in nnet3 compilation total (breakdown: 0.0566 compilation, 0.00917 optimization, 0 shortcut expansion, 0.00183 checking, 4.77e-06 computing indexes, 0.00387 misc.) + 0 I/O.
+pp28-domotica3_command87 rolluiken neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command87 is 1.3575 over 220 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0773 seconds taken in nnet3 compilation total (breakdown: 0.0627 compilation, 0.00893 optimization, 0 shortcut expansion, 0.00164 checking, 5.96e-06 computing indexes, 0.00409 misc.) + 0 I/O.
+pp28-domotica3_command88 uit in slaapkamer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command88 is 1.14601 over 278 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0917 seconds taken in nnet3 compilation total (breakdown: 0.0752 compilation, 0.00894 optimization, 0 shortcut expansion, 0.00164 checking, 5.25e-06 computing indexes, 0.0059 misc.) + 0 I/O.
+pp28-domotica3_command89 al slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command89 is 1.08207 over 310 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0564 seconds taken in nnet3 compilation total (breakdown: 0.045 compilation, 0.00682 optimization, 0 shortcut expansion, 0.00124 checking, 3.1e-06 computing indexes, 0.00326 misc.) + 0 I/O.
+pp28-domotica3_command9 rolluik omhoog in op stand twee 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command9 is 1.30289 over 278 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.086 seconds taken in nnet3 compilation total (breakdown: 0.0705 compilation, 0.00899 optimization, 0 shortcut expansion, 0.00158 checking, 5.96e-06 computing indexes, 0.00488 misc.) + 0 I/O.
+pp28-domotica3_command90 rolluiken neer al de naar beneden 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command90 is 1.13538 over 310 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.081 seconds taken in nnet3 compilation total (breakdown: 0.0656 compilation, 0.00906 optimization, 0 shortcut expansion, 0.00173 checking, 6.2e-06 computing indexes, 0.00463 misc.) + 0 I/O.
+pp28-domotica3_command91 al rolluik omhoog deur in living 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command91 is 1.06918 over 278 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0858 seconds taken in nnet3 compilation total (breakdown: 0.0707 compilation, 0.00873 optimization, 0 shortcut expansion, 0.00161 checking, 4.05e-06 computing indexes, 0.00478 misc.) + 0 I/O.
+pp28-domotica3_command92 rolluiken neer neer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command92 is 1.22717 over 213 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0586 seconds taken in nnet3 compilation total (breakdown: 0.0467 compilation, 0.00707 optimization, 0 shortcut expansion, 0.00143 checking, 4.05e-06 computing indexes, 0.0034 misc.) + 0 I/O.
+LOG (apply-cmvn[5.5.569~1-6f329]:main():apply-cmvn.cc:81) Copied 204 utterances.
+pp28-domotica3_command93 al de omhoog in de lichten 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command93 is 1.11271 over 266 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.083 seconds taken in nnet3 compilation total (breakdown: 0.0678 compilation, 0.00889 optimization, 0 shortcut expansion, 0.00158 checking, 4.29e-06 computing indexes, 0.00474 misc.) + 0 I/O.
+pp28-domotica3_command94 licht aan slaapkamer omhoog 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command94 is 1.2273 over 237 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0669 seconds taken in nnet3 compilation total (breakdown: 0.0522 compilation, 0.00909 optimization, 0 shortcut expansion, 0.00177 checking, 5.25e-06 computing indexes, 0.00382 misc.) + 0 I/O.
+pp28-domotica3_command95 neer licht uit in slaapkamer 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command95 is 1.29405 over 301 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0562 seconds taken in nnet3 compilation total (breakdown: 0.0446 compilation, 0.00703 optimization, 0 shortcut expansion, 0.00141 checking, 3.81e-06 computing indexes, 0.00307 misc.) + 0 I/O.
+pp28-domotica3_command96 staande lamp op een 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command96 is 1.36052 over 251 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0718 seconds taken in nnet3 compilation total (breakdown: 0.0572 compilation, 0.00897 optimization, 0 shortcut expansion, 0.00173 checking, 4.05e-06 computing indexes, 0.0039 misc.) + 0 I/O.
+pp28-domotica3_command97 uit in lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command97 is 1.33086 over 249 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0494 seconds taken in nnet3 compilation total (breakdown: 0.0384 compilation, 0.0068 optimization, 0 shortcut expansion, 0.00134 checking, 3.81e-06 computing indexes, 0.00279 misc.) + 0 I/O.
+pp28-domotica3_command98 uit in staande lamp op drie 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command98 is 1.39644 over 229 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0777 seconds taken in nnet3 compilation total (breakdown: 0.0632 compilation, 0.00857 optimization, 0 shortcut expansion, 0.00154 checking, 4.29e-06 computing indexes, 0.00441 misc.) + 0 I/O.
+pp28-domotica3_command99 al de thermostaat op eenentwintig 
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~DecodeUtteranceLatticeFasterClass():decoder-wrappers.cc:180) Log-like per frame for utterance pp28-domotica3_command99 is 1.09506 over 305 frames.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0473 seconds taken in nnet3 compilation total (breakdown: 0.0376 compilation, 0.00624 optimization, 0 shortcut expansion, 0.00113 checking, 2.86e-06 computing indexes, 0.00237 misc.) + 0 I/O.
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:main():nnet3-latgen-faster-parallel.cc:264) Time taken 24.3142s: real-time factor assuming 100 feature frames/sec is 0.0616131
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:main():nnet3-latgen-faster-parallel.cc:268) Done 204 utterances, failed for 0
+LOG (nnet3-latgen-faster-parallel[5.5.569~1-6f329]:main():nnet3-latgen-faster-parallel.cc:270) Overall log-likelihood per frame is 1.17538 over 52617 frames.
+LOG (lattice-scale[5.5.569~1-6f329]:main():lattice-scale.cc:107) Done 204 lattices.
+# Accounting: time=25 threads=1
+# Ended (code 0) at Tue Mar 23 10:11:45 CET 2021, elapsed time 25 seconds

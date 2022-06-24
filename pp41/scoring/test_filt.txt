@@ -1,0 +1,144 @@
+ pp41-domotica3_command1 aladin de gordijnen dicht
+ pp41-domotica3_command2 aladin alle lichten uit in het huis
+ pp41-domotica3_command3 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command4 aladin doe de deur van de badkamer open
+ pp41-domotica3_command5 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command6 aladin hoofdeinde op stand een
+ pp41-domotica3_command7 aladin hoofdeinde op stand twee
+ pp41-domotica3_command8 aladin hoofdeinde op stand drie
+ pp41-domotica3_command11 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command12 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command13 aladin doe de gordijnen van de achterdeur dicht
+ pp41-domotica3_command14 aladin doe de rolluik van de achterdeur open
+ pp41-domotica3_command15 aladin de gordijnen dicht
+ pp41-domotica3_command16 aladin steek het licht aan in de slaapkamer
+ pp41-domotica3_command17 aladin doe het licht van de slaapkamer uit
+ pp41-domotica3_command18 aladin staande lamp op een
+ pp41-domotica3_command19 aladin staande lamp op twee
+ pp41-domotica3_command20 aladin staande lamp op drie
+ pp41-domotica3_command21 aladin ik wil eenentwintig graden in de woonkamer
+ pp41-domotica3_command22 aladin voordeur sluiten
+ pp41-domotica3_command23 aladin de deur openen
+ pp41-domotica3_command24 aladin alle lichten uit in het huis
+ pp41-domotica3_command25 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command27 aladin doe de deur van de badkamer open
+ pp41-domotica3_command28 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command29 aladin hoofdeinde op stand een
+ pp41-domotica3_command31 aladin hoofdeinde op stand twee
+ pp41-domotica3_command32 aladin hoofdeinde op stand drie
+ pp41-domotica3_command34 aladin steek het lampje aan de tv aan
+ pp41-domotica3_command35 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command36 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command37 aladin doe de gordijnen van de achterdeur dicht
+ pp41-domotica3_command38 aladin doe de rolluik van de achterdeur open
+ pp41-domotica3_command39 aladin de gordijnen dicht
+ pp41-domotica3_command40 aladin doe de rolluik van de woonkamer omhoog
+ pp41-domotica3_command41 aladin steek het licht aan in de slaapkamer
+ pp41-domotica3_command42 aladin doe het licht van de slaapkamer uit
+ pp41-domotica3_command43 aladin staande lamp op een
+ pp41-domotica3_command44 aladin staande lamp op twee
+ pp41-domotica3_command45 aladin staande lamp op drie
+ pp41-domotica3_command46 aladin ik wil eenentwintig graden in de woonkamer
+ pp41-domotica3_command47 aladin voordeur sluiten
+ pp41-domotica3_command48 aladin de deur openen
+ pp41-domotica3_command49 aladin alle lichten uit in het huis
+ pp41-domotica3_command50 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command51 aladin doe de deur van de badkamer open
+ pp41-domotica3_command52 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command53 aladin hoofdeinde op stand een
+ pp41-domotica3_command54 aladin hoofdeinde op stand twee
+ pp41-domotica3_command55 aladin hoofdeinde op stand drie
+ pp41-domotica3_command56 aladin steek het lampje aan de tv aan
+ pp41-domotica3_command57 aladin steek het lampje aan de tv aan
+ pp41-domotica3_command58 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command59 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command60 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command61 aladin doe de gordijnen van de achterdeur dicht
+ pp41-domotica3_command62 aladin doe de rolluik van de achterdeur open
+ pp41-domotica3_command63 aladin de gordijnen dicht
+ pp41-domotica3_command64 aladin doe de rolluik van de woonkamer omhoog
+ pp41-domotica3_command65 aladin steek het licht aan in de slaapkamer
+ pp41-domotica3_command66 aladin doe het licht van de slaapkamer uit
+ pp41-domotica3_command67 aladin staande lamp op een
+ pp41-domotica3_command68 aladin staande lamp op twee
+ pp41-domotica3_command69 aladin staande lamp op drie
+ pp41-domotica3_command70 aladin ik wil eenentwintig graden in de woonkamer
+ pp41-domotica3_command71 aladin voordeur sluiten
+ pp41-domotica3_command72 aladin de deur openen
+ pp41-domotica3_command73 aladin alle lichten uit in het huis
+ pp41-domotica3_command74 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command75 aladin doe de deur van de badkamer open
+ pp41-domotica3_command76 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command77 aladin hoofdeinde op stand een
+ pp41-domotica3_command78 aladin hoofdeinde op stand twee
+ pp41-domotica3_command79 aladin hoofdeinde op stand drie
+ pp41-domotica3_command80 aladin steek het lampje aan de tv aan
+ pp41-domotica3_command81 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command82 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command83 aladin doe de gordijnen van de achterdeur dicht
+ pp41-domotica3_command84 aladin doe de rolluik van de achterdeur open
+ pp41-domotica3_command85 aladin de gordijnen dicht
+ pp41-domotica3_command86 aladin doe de rolluik van de woonkamer omhoog
+ pp41-domotica3_command87 aladin steek het licht aan in de slaapkamer
+ pp41-domotica3_command88 aladin doe het licht van de slaapkamer uit
+ pp41-domotica3_command89 aladin staande lamp op een
+ pp41-domotica3_command90 aladin staande lamp op twee
+ pp41-domotica3_command91 aladin staande lamp op drie
+ pp41-domotica3_command92 aladin ik wil eenentwintig graden in de woonkamer
+ pp41-domotica3_command93 aladin voordeur sluiten
+ pp41-domotica3_command94 aladin de deur openen
+ pp41-domotica3_command95 aladin alle lichten uit in het huis
+ pp41-domotica3_command96 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command97 aladin doe de deur van de badkamer open
+ pp41-domotica3_command98 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command99 aladin hoofdeinde op stand een
+ pp41-domotica3_command100 aladin hoofdeinde op stand twee
+ pp41-domotica3_command101 aladin hoofdeinde op stand drie
+ pp41-domotica3_command102 aladin steek het lampje aan de tv aan
+ pp41-domotica3_command103 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command104 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command105 aladin doe de gordijnen van de achterdeur dicht
+ pp41-domotica3_command106 aladin doe de rolluik van de achterdeur open
+ pp41-domotica3_command107 aladin de gordijnen dicht
+ pp41-domotica3_command108 aladin doe de rolluik van de woonkamer omhoog
+ pp41-domotica3_command109 aladin steek het licht aan in de slaapkamer
+ pp41-domotica3_command110 aladin doe het licht van de slaapkamer uit
+ pp41-domotica3_command111 aladin staande lamp op een
+ pp41-domotica3_command112 aladin staande lamp op twee
+ pp41-domotica3_command113 aladin staande lamp op drie
+ pp41-domotica3_command114 aladin ik wil eenentwintig graden in de woonkamer
+ pp41-domotica3_command115 aladin voordeur sluiten
+ pp41-domotica3_command116 aladin de deur openen
+ pp41-domotica3_command117 aladin alle lichten uit in het huis
+ pp41-domotica3_command118 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command119 aladin doe de deur van de badkamer open
+ pp41-domotica3_command120 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command121 aladin hoofdeinde op stand een
+ pp41-domotica3_command122 aladin hoofdeinde op stand twee
+ pp41-domotica3_command123 aladin hoofdeinde op stand drie
+ pp41-domotica3_command124 aladin steek het licht in de keuken aan
+ pp41-domotica3_command126 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command127 aladin doe de gordijnen van de slaapkamer open
+ pp41-domotica3_command128 aladin doe de gordijnen van de achterdeur dicht
+ pp41-domotica3_command129 aladin doe de rolluik van de achterdeur open
+ pp41-domotica3_command130 aladin de gordijnen dicht
+ pp41-domotica3_command131 aladin doe de rolluik van de woonkamer omhoog
+ pp41-domotica3_command132 aladin steek het licht aan in de slaapkamer
+ pp41-domotica3_command133 aladin doe het licht van de slaapkamer uit
+ pp41-domotica3_command134 aladin staande lamp op een
+ pp41-domotica3_command135 aladin staande lamp op twee
+ pp41-domotica3_command136 aladin staande lamp op drie
+ pp41-domotica3_command137 aladin ik wil eenentwintig graden in de woonkamer
+ pp41-domotica3_command138 aladin voordeur sluiten
+ pp41-domotica3_command139 aladin de deur openen
+ pp41-domotica3_command140 aladin alle lichten uit in het huis
+ pp41-domotica3_command141 aladin doe de badkamerdeur dicht
+ pp41-domotica3_command142 aladin doe de deur van de badkamer open
+ pp41-domotica3_command143 aladin steek het licht van de badkamer aan
+ pp41-domotica3_command144 aladin hoofdeinde op stand een
+ pp41-domotica3_command145 aladin hoofdeinde op stand twee
+ pp41-domotica3_command146 aladin hoofdeinde op stand drie
+ pp41-domotica3_command148 aladin steek het licht in de keuken aan
+ pp41-domotica3_command149 aladin steek het lampje aan de tv aan
+ pp41-domotica3_command150 aladin doe de rolluiken van de slaapkamer dicht
+ pp41-domotica3_command151 aladin doe de gordijnen van de slaapkamer open

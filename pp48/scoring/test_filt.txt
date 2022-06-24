@@ -1,0 +1,169 @@
+ pp48-domotica3_command1 aladin doe alle lichten uit
+ pp48-domotica3_command2 aladin hoofdeinde op stand een
+ pp48-domotica3_command3 aladin hoofdeinde op stand twee
+ pp48-domotica3_command4 aladin hoofdeinde op stand drie
+ pp48-domotica3_command5 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command6 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command7 aladin de voordeur sluiten
+ pp48-domotica3_command8 aladin deur open
+ pp48-domotica3_command9 aladin doe alle lichten uit
+ pp48-domotica3_command10 aladin hoofdeinde op stand een
+ pp48-domotica3_command11 aladin hoofdeinde op stand twee
+ pp48-domotica3_command12 aladin hoofdeinde op stand drie
+ pp48-domotica3_command13 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command14 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command15 aladin de voordeur sluiten
+ pp48-domotica3_command16 aladin deur open
+ pp48-domotica3_command17 aladin doe alle lichten uit
+ pp48-domotica3_command18 aladin hoofdeinde op stand een
+ pp48-domotica3_command19 aladin hoofdeinde op stand twee
+ pp48-domotica3_command20 aladin hoofdeinde op stand drie
+ pp48-domotica3_command21 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command22 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command23 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command24 aladin de voordeur sluiten
+ pp48-domotica3_command25 aladin deur open
+ pp48-domotica3_command26 aladin doe alle lichten uit
+ pp48-domotica3_command27 aladin hoofdeinde op stand een
+ pp48-domotica3_command28 aladin hoofdeinde op stand twee
+ pp48-domotica3_command29 aladin hoofdeinde op stand drie
+ pp48-domotica3_command30 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command31 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command32 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command33 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command34 aladin de voordeur sluiten
+ pp48-domotica3_command35 aladin deur open
+ pp48-domotica3_command36 aladin doe alle lichten uit
+ pp48-domotica3_command37 aladin hoofdeinde op stand een
+ pp48-domotica3_command38 aladin hoofdeinde op stand twee
+ pp48-domotica3_command39 aladin hoofdeinde op stand drie
+ pp48-domotica3_command40 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command41 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command42 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command43 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command44 aladin de voordeur sluiten
+ pp48-domotica3_command45 aladin deur open
+ pp48-domotica3_command46 aladin doe alle lichten uit
+ pp48-domotica3_command47 aladin hoofdeinde op stand een
+ pp48-domotica3_command48 aladin hoofdeinde op stand twee
+ pp48-domotica3_command49 aladin hoofdeinde op stand drie
+ pp48-domotica3_command50 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command51 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command52 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command53 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command54 aladin de voordeur sluiten
+ pp48-domotica3_command55 aladin deur open
+ pp48-domotica3_command56 aladin doe alle lichten uit
+ pp48-domotica3_command57 aladin hoofdeinde op stand een
+ pp48-domotica3_command58 aladin hoofdeinde op stand twee
+ pp48-domotica3_command59 aladin hoofdeinde op stand drie
+ pp48-domotica3_command60 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command61 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command62 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command63 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command64 aladin de voordeur sluiten
+ pp48-domotica3_command65 aladin deur open
+ pp48-domotica3_command66 aladin doe alle lichten uit
+ pp48-domotica3_command67 aladin hoofdeinde op stand een
+ pp48-domotica3_command68 aladin hoofdeinde op stand twee
+ pp48-domotica3_command69 aladin hoofdeinde op stand drie
+ pp48-domotica3_command70 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command71 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command72 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command73 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command74 aladin de voordeur sluiten
+ pp48-domotica3_command75 aladin deur open
+ pp48-domotica3_command76 aladin doe alle lichten uit
+ pp48-domotica3_command77 aladin hoofdeinde op stand een
+ pp48-domotica3_command78 aladin hoofdeinde op stand twee
+ pp48-domotica3_command79 aladin hoofdeinde op stand drie
+ pp48-domotica3_command81 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command82 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command83 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command84 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command85 aladin de voordeur sluiten
+ pp48-domotica3_command86 aladin deur open
+ pp48-domotica3_command87 aladin doe alle lichten uit
+ pp48-domotica3_command88 aladin hoofdeinde op stand een
+ pp48-domotica3_command89 aladin hoofdeinde op stand twee
+ pp48-domotica3_command90 aladin hoofdeinde op stand drie
+ pp48-domotica3_command91 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command92 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command93 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command94 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command95 aladin de voordeur sluiten
+ pp48-domotica3_command96 aladin deur open
+ pp48-domotica3_command97 aladin doe alle lichten uit
+ pp48-domotica3_command98 aladin hoofdeinde op stand een
+ pp48-domotica3_command99 aladin hoofdeinde op stand twee
+ pp48-domotica3_command100 aladin hoofdeinde op stand drie
+ pp48-domotica3_command101 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command102 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command103 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command104 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command105 aladin de voordeur sluiten
+ pp48-domotica3_command106 aladin deur open
+ pp48-domotica3_command107 aladin doe alle lichten uit
+ pp48-domotica3_command108 aladin hoofdeinde op stand een
+ pp48-domotica3_command109 aladin hoofdeinde op stand twee
+ pp48-domotica3_command110 aladin hoofdeinde op stand drie
+ pp48-domotica3_command111 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command112 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command113 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command114 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command115 aladin de voordeur sluiten
+ pp48-domotica3_command116 aladin deur open
+ pp48-domotica3_command117 aladin doe alle lichten uit
+ pp48-domotica3_command118 aladin hoofdeinde op stand een
+ pp48-domotica3_command119 aladin hoofdeinde op stand twee
+ pp48-domotica3_command120 aladin hoofdeinde op stand drie
+ pp48-domotica3_command121 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command122 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command123 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command124 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command125 aladin de voordeur sluiten
+ pp48-domotica3_command126 aladin deur open
+ pp48-domotica3_command127 aladin doe alle lichten uit
+ pp48-domotica3_command128 aladin hoofdeinde op stand een
+ pp48-domotica3_command129 aladin hoofdeinde op stand twee
+ pp48-domotica3_command130 aladin hoofdeinde op stand drie
+ pp48-domotica3_command131 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command132 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command133 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command134 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command135 aladin de voordeur sluiten
+ pp48-domotica3_command136 aladin deur open
+ pp48-domotica3_command137 aladin doe alle lichten uit
+ pp48-domotica3_command138 aladin hoofdeinde op stand een
+ pp48-domotica3_command139 aladin hoofdeinde op stand twee
+ pp48-domotica3_command140 aladin hoofdeinde op stand drie
+ pp48-domotica3_command141 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command142 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command143 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command144 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command145 aladin de voordeur sluiten
+ pp48-domotica3_command146 aladin deur open
+ pp48-domotica3_command147 aladin doe alle lichten uit
+ pp48-domotica3_command148 aladin hoofdeinde op stand een
+ pp48-domotica3_command149 aladin hoofdeinde op stand twee
+ pp48-domotica3_command150 aladin hoofdeinde op stand drie
+ pp48-domotica3_command151 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command152 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command153 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command154 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command155 aladin de voordeur sluiten
+ pp48-domotica3_command156 aladin deur open
+ pp48-domotica3_command157 aladin doe alle lichten uit
+ pp48-domotica3_command158 aladin hoofdeinde op stand een
+ pp48-domotica3_command159 aladin hoofdeinde op stand twee
+ pp48-domotica3_command160 aladin hoofdeinde op stand drie
+ pp48-domotica3_command161 aladin deur dicht aan de slaapkamer
+ pp48-domotica3_command162 aladin deur open naar mijn slaapkamer
+ pp48-domotica3_command163 aladin licht aan in mijn slaapkamer
+ pp48-domotica3_command164 aladin licht uit op mijn slaapkamer
+ pp48-domotica3_command165 aladin de voordeur sluiten
+ pp48-domotica3_command166 aladin deur open
+ pp48-domotica3_command167 aladin doe alle lichten uit
+ pp48-domotica3_command168 aladin hoofdeinde op stand een
+ pp48-domotica3_command169 aladin hoofdeinde op stand twee
+ pp48-domotica3_command170 aladin hoofdeinde op stand drie

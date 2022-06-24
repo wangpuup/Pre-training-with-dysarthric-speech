@@ -1,0 +1,133 @@
+ pp43-domotica3_command1 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command2 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command3 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command4 aladin hoofdeinde op stand een
+ pp43-domotica3_command5 aladin hoofdeinde op stand twee
+ pp43-domotica3_command6 aladin hoofdeinde op stand drie
+ pp43-domotica3_command7 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command9 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command10 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command11 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command12 aladin open de deur
+ pp43-domotica3_command13 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command14 aladin hoofdeinde op stand een
+ pp43-domotica3_command15 aladin hoofdeinde op stand twee
+ pp43-domotica3_command16 aladin hoofdeinde op stand drie
+ pp43-domotica3_command17 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command18 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command19 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command20 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command21 aladin open de deur
+ pp43-domotica3_command22 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command23 aladin hoofdeinde op stand een
+ pp43-domotica3_command24 aladin hoofdeinde op stand twee
+ pp43-domotica3_command25 aladin hoofdeinde op stand drie
+ pp43-domotica3_command26 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command27 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command28 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command29 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command30 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command31 aladin open de deur
+ pp43-domotica3_command32 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command33 aladin hoofdeinde op stand een
+ pp43-domotica3_command34 aladin hoofdeinde op stand twee
+ pp43-domotica3_command35 aladin hoofdeinde op stand drie
+ pp43-domotica3_command36 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command38 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command39 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command40 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command41 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command42 aladin open de deur
+ pp43-domotica3_command43 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command44 aladin hoofdeinde op stand een
+ pp43-domotica3_command45 aladin hoofdeinde op stand twee
+ pp43-domotica3_command46 aladin hoofdeinde op stand drie
+ pp43-domotica3_command47 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command49 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command50 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command51 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command52 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command53 aladin open de deur
+ pp43-domotica3_command54 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command55 aladin hoofdeinde op stand een
+ pp43-domotica3_command56 aladin hoofdeinde op stand twee
+ pp43-domotica3_command57 aladin hoofdeinde op stand drie
+ pp43-domotica3_command58 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command59 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command60 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command61 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command62 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command63 aladin open de deur
+ pp43-domotica3_command64 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command65 aladin hoofdeinde op stand een
+ pp43-domotica3_command66 aladin hoofdeinde op stand twee
+ pp43-domotica3_command67 aladin hoofdeinde op stand drie
+ pp43-domotica3_command68 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command69 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command70 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command71 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command72 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command73 aladin open de deur
+ pp43-domotica3_command74 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command75 aladin hoofdeinde op stand een
+ pp43-domotica3_command76 aladin hoofdeinde op stand twee
+ pp43-domotica3_command77 aladin hoofdeinde op stand drie
+ pp43-domotica3_command78 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command79 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command80 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command81 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command82 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command83 aladin open de deur
+ pp43-domotica3_command84 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command85 aladin hoofdeinde op stand een
+ pp43-domotica3_command86 aladin hoofdeinde op stand twee
+ pp43-domotica3_command87 aladin hoofdeinde op stand drie
+ pp43-domotica3_command88 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command89 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command90 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command91 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command92 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command93 aladin open de deur
+ pp43-domotica3_command94 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command95 aladin hoofdeinde op stand een
+ pp43-domotica3_command96 aladin hoofdeinde op stand twee
+ pp43-domotica3_command97 aladin hoofdeinde op stand drie
+ pp43-domotica3_command98 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command99 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command100 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command101 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command102 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command103 aladin open de deur
+ pp43-domotica3_command104 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command105 aladin hoofdeinde op stand een
+ pp43-domotica3_command106 aladin hoofdeinde op stand twee
+ pp43-domotica3_command107 aladin hoofdeinde op stand drie
+ pp43-domotica3_command108 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command109 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command110 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command111 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command112 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command113 aladin open de deur
+ pp43-domotica3_command114 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command115 aladin hoofdeinde op stand een
+ pp43-domotica3_command116 aladin hoofdeinde op stand twee
+ pp43-domotica3_command117 aladin hoofdeinde op stand drie
+ pp43-domotica3_command118 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command119 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command120 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command121 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command122 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command123 aladin open de deur
+ pp43-domotica3_command124 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command125 aladin hoofdeinde op stand een
+ pp43-domotica3_command126 aladin hoofdeinde op stand twee
+ pp43-domotica3_command127 aladin hoofdeinde op stand drie
+ pp43-domotica3_command128 aladin doe de deur dicht van de kamer
+ pp43-domotica3_command129 aladin wil je de deur van de slaapkamer open doen
+ pp43-domotica3_command130 aladin wil je het licht aansteken boven het bed alstublief
+ pp43-domotica3_command131 aladin doe het licht uit in de slaapkamer
+ pp43-domotica3_command132 aladin doe de deur dicht in de woonkamer
+ pp43-domotica3_command133 aladin open de deur
+ pp43-domotica3_command135 aladin doe alle lichten uit in de zitkamer en de keuken
+ pp43-domotica3_command136 aladin hoofdeinde op stand een
+ pp43-domotica3_command137 aladin hoofdeinde op stand twee

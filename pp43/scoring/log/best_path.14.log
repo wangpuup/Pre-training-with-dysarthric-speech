@@ -1,0 +1,274 @@
+# lattice-scale --inv-acoustic-scale=14 "ark:gunzip -c exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/words.txt ark:- ark,t:exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/scoring/14.tra 
+# Started at Tue Mar 23 10:36:56 CET 2021
+#
+lattice-scale --inv-acoustic-scale=14 'ark:gunzip -c exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/words.txt ark:- ark,t:exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/scoring/14.tra 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command10, best cost 121.847 + -269.844 = -147.997 over 150 frames.
+pp43-domotica3_command10 doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command100, best cost 140.613 + -280.972 = -140.359 over 163 frames.
+pp43-domotica3_command100 het licht aansteken boven het bed alle 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command101, best cost 115.609 + -253.484 = -137.876 over 141 frames.
+pp43-domotica3_command101 doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command102, best cost 129.799 + -283.14 = -153.341 over 151 frames.
+pp43-domotica3_command102 het in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command103, best cost 121.49 + -257.09 = -135.601 over 145 frames.
+pp43-domotica3_command103 open open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command104, best cost 153.302 + -325.93 = -172.628 over 189 frames.
+pp43-domotica3_command104 doe het licht uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command105, best cost 138.948 + -287.473 = -148.525 over 170 frames.
+pp43-domotica3_command105 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command106, best cost 120.233 + -254.02 = -133.787 over 143 frames.
+pp43-domotica3_command106 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command107, best cost 95.5058 + -205.38 = -109.875 over 120 frames.
+pp43-domotica3_command107 hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command108, best cost 158.207 + -353.935 = -195.729 over 191 frames.
+pp43-domotica3_command108 alle in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command109, best cost 139.507 + -288.251 = -148.744 over 170 frames.
+pp43-domotica3_command109 in de deur slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command11, best cost 127.983 + -288.168 = -160.185 over 157 frames.
+pp43-domotica3_command11 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command110, best cost 154.513 + -325.474 = -170.961 over 192 frames.
+pp43-domotica3_command110 het licht aansteken boven het licht aansteken boven 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command111, best cost 128.071 + -258.053 = -129.982 over 148 frames.
+pp43-domotica3_command111 uit in de deur dicht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command112, best cost 133.803 + -281.4 = -147.596 over 167 frames.
+pp43-domotica3_command112 in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command113, best cost 107.592 + -226.909 = -119.318 over 124 frames.
+pp43-domotica3_command113 in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command114, best cost 155.713 + -351.78 = -196.067 over 194 frames.
+pp43-domotica3_command114 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command115, best cost 105.261 + -215.166 = -109.905 over 123 frames.
+pp43-domotica3_command115 in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command116, best cost 104.439 + -234.737 = -130.299 over 133 frames.
+pp43-domotica3_command116 hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command117, best cost 110.756 + -250.72 = -139.964 over 142 frames.
+pp43-domotica3_command117 hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command118, best cost 118.569 + -244.864 = -126.295 over 145 frames.
+pp43-domotica3_command118 in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command119, best cost 129.367 + -251.232 = -121.865 over 165 frames.
+pp43-domotica3_command119 in de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command12, best cost 114.246 + -245.846 = -131.6 over 132 frames.
+pp43-domotica3_command12 uit in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command120, best cost 147.543 + -289.296 = -141.753 over 173 frames.
+pp43-domotica3_command120 het licht aansteken boven het bed aansteken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command121, best cost 121.319 + -254.1 = -132.781 over 149 frames.
+pp43-domotica3_command121 in de deur dicht in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command122, best cost 125.903 + -272.744 = -146.842 over 154 frames.
+pp43-domotica3_command122 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command123, best cost 106.204 + -223.467 = -117.263 over 122 frames.
+pp43-domotica3_command123 in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command124, best cost 158.485 + -346.331 = -187.846 over 198 frames.
+pp43-domotica3_command124 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command125, best cost 110.113 + -223.664 = -113.551 over 130 frames.
+pp43-domotica3_command125 in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command126, best cost 109.143 + -228.794 = -119.651 over 127 frames.
+pp43-domotica3_command126 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command127, best cost 102.984 + -224.811 = -121.827 over 118 frames.
+pp43-domotica3_command127 uit in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command128, best cost 125.225 + -280.295 = -155.069 over 153 frames.
+pp43-domotica3_command128 uit in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command129, best cost 144.423 + -286.354 = -141.932 over 184 frames.
+pp43-domotica3_command129 deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command13, best cost 154.326 + -291.511 = -137.185 over 192 frames.
+pp43-domotica3_command13 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command130, best cost 142.019 + -285.645 = -143.626 over 165 frames.
+pp43-domotica3_command130 licht aansteken boven het bed aansteken boven 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command131, best cost 116.302 + -244.02 = -127.718 over 142 frames.
+pp43-domotica3_command131 doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command132, best cost 130.339 + -300.345 = -170.006 over 162 frames.
+pp43-domotica3_command132 in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command133, best cost 106.899 + -233.157 = -126.259 over 123 frames.
+pp43-domotica3_command133 in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command135, best cost 146.702 + -311.302 = -164.6 over 181 frames.
+pp43-domotica3_command135 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command136, best cost 117.044 + -247.023 = -129.98 over 140 frames.
+pp43-domotica3_command136 in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command137, best cost 97.5071 + -201.027 = -103.52 over 123 frames.
+pp43-domotica3_command137 hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command14, best cost 119.123 + -249.709 = -130.586 over 143 frames.
+pp43-domotica3_command14 in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command15, best cost 115.382 + -249.477 = -134.094 over 136 frames.
+pp43-domotica3_command15 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command16, best cost 97.4386 + -203.374 = -105.935 over 110 frames.
+pp43-domotica3_command16 uit in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command17, best cost 154.74 + -341.009 = -186.269 over 186 frames.
+pp43-domotica3_command17 alle in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command18, best cost 158.842 + -375.933 = -217.091 over 201 frames.
+pp43-domotica3_command18 in de deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command19, best cost 138.483 + -320.724 = -182.242 over 174 frames.
+pp43-domotica3_command19 doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command20, best cost 133.527 + -313.552 = -180.025 over 165 frames.
+pp43-domotica3_command20 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command21, best cost 103.305 + -235.192 = -131.887 over 129 frames.
+pp43-domotica3_command21 open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command22, best cost 193.687 + -404.348 = -210.661 over 236 frames.
+pp43-domotica3_command22 uit in doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command23, best cost 123.7 + -279.53 = -155.83 over 148 frames.
+pp43-domotica3_command23 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command24, best cost 120.381 + -294.71 = -174.329 over 156 frames.
+pp43-domotica3_command24 hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command25, best cost 111.577 + -257.225 = -145.648 over 132 frames.
+pp43-domotica3_command25 in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command26, best cost 131.046 + -296.213 = -165.167 over 163 frames.
+pp43-domotica3_command26 in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command27, best cost 154.739 + -338.023 = -183.285 over 200 frames.
+pp43-domotica3_command27 uit in de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command28, best cost 152.613 + -314.787 = -162.174 over 186 frames.
+pp43-domotica3_command28 het licht aansteken boven het bed stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command29, best cost 124.62 + -285.646 = -161.026 over 154 frames.
+pp43-domotica3_command29 doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command3, best cost 177.733 + -378.215 = -200.482 over 206 frames.
+pp43-domotica3_command3 aansteken doe alle lichten uit in de zitkamer in de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command30, best cost 125.21 + -280.51 = -155.3 over 153 frames.
+pp43-domotica3_command30 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command31, best cost 102.612 + -235.332 = -132.721 over 128 frames.
+pp43-domotica3_command31 open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command32, best cost 161.11 + -351.53 = -190.419 over 189 frames.
+pp43-domotica3_command32 uit in doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command33, best cost 120.234 + -263.48 = -143.246 over 143 frames.
+pp43-domotica3_command33 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command34, best cost 118.154 + -270.274 = -152.12 over 140 frames.
+pp43-domotica3_command34 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command35, best cost 98.2794 + -225.194 = -126.915 over 124 frames.
+pp43-domotica3_command35 hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command36, best cost 127.998 + -299.527 = -171.529 over 157 frames.
+pp43-domotica3_command36 uit in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command38, best cost 139.766 + -299.864 = -160.099 over 180 frames.
+pp43-domotica3_command38 in de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command39, best cost 168.257 + -344.306 = -176.049 over 189 frames.
+pp43-domotica3_command39 uit in het licht aansteken boven het bed alle lichten 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command4, best cost 141.46 + -295.084 = -153.624 over 165 frames.
+pp43-domotica3_command4 het in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command40, best cost 114.916 + -241 = -126.084 over 140 frames.
+pp43-domotica3_command40 doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command41, best cost 129.645 + -292.187 = -162.543 over 161 frames.
+pp43-domotica3_command41 in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command42, best cost 99.1458 + -211.805 = -112.659 over 123 frames.
+pp43-domotica3_command42 open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command43, best cost 155.713 + -351.137 = -195.425 over 194 frames.
+pp43-domotica3_command43 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command44, best cost 111.917 + -244.832 = -132.916 over 131 frames.
+pp43-domotica3_command44 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command45, best cost 104.291 + -231.512 = -127.221 over 120 frames.
+pp43-domotica3_command45 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command46, best cost 113.381 + -249.597 = -136.216 over 133 frames.
+pp43-domotica3_command46 uit in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command47, best cost 127.998 + -297.999 = -170.001 over 157 frames.
+pp43-domotica3_command47 uit in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command49, best cost 145.474 + -293.848 = -148.374 over 179 frames.
+pp43-domotica3_command49 wil je de deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command5, best cost 120.233 + -268.221 = -147.988 over 143 frames.
+pp43-domotica3_command5 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command50, best cost 164.811 + -320.564 = -155.753 over 184 frames.
+pp43-domotica3_command50 uit in het licht aansteken boven het bed aansteken boven 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command51, best cost 130.71 + -283.023 = -152.312 over 150 frames.
+pp43-domotica3_command51 uit in doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command52, best cost 131.449 + -294.028 = -162.579 over 162 frames.
+pp43-domotica3_command52 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command53, best cost 112.86 + -230.523 = -117.662 over 130 frames.
+pp43-domotica3_command53 uit in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command54, best cost 146.009 + -322.065 = -176.057 over 180 frames.
+pp43-domotica3_command54 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command55, best cost 112.609 + -241.758 = -129.15 over 132 frames.
+pp43-domotica3_command55 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command56, best cost 104.439 + -230.978 = -126.539 over 133 frames.
+pp43-domotica3_command56 hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command57, best cost 110.883 + -236.91 = -126.027 over 131 frames.
+pp43-domotica3_command57 in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command58, best cost 117.184 + -269.977 = -152.793 over 143 frames.
+pp43-domotica3_command58 in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command59, best cost 148.445 + -314.359 = -165.914 over 186 frames.
+pp43-domotica3_command59 in de deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command6, best cost 111.578 + -236.531 = -124.952 over 132 frames.
+pp43-domotica3_command6 aansteken hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command60, best cost 163.011 + -318.256 = -155.245 over 183 frames.
+pp43-domotica3_command60 alle het licht aansteken boven het bed aansteken boven 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command61, best cost 124.472 + -241.283 = -116.811 over 141 frames.
+pp43-domotica3_command61 uit in doe het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command62, best cost 121.328 + -254.895 = -133.567 over 149 frames.
+pp43-domotica3_command62 in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command63, best cost 119.097 + -255.83 = -136.733 over 139 frames.
+pp43-domotica3_command63 uit in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command64, best cost 146.009 + -325.083 = -179.075 over 180 frames.
+pp43-domotica3_command64 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command65, best cost 122.314 + -241.742 = -119.428 over 146 frames.
+pp43-domotica3_command65 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command66, best cost 114.271 + -236.662 = -122.391 over 136 frames.
+pp43-domotica3_command66 in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command67, best cost 95.5058 + -208.375 = -112.869 over 120 frames.
+pp43-domotica3_command67 hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command68, best cost 121.066 + -273.111 = -152.045 over 147 frames.
+pp43-domotica3_command68 uit in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command69, best cost 134.719 + -287.731 = -153.012 over 170 frames.
+pp43-domotica3_command69 deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command7, best cost 120.373 + -270.626 = -150.253 over 146 frames.
+pp43-domotica3_command7 uit in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command70, best cost 145.502 + -303.942 = -158.44 over 179 frames.
+pp43-domotica3_command70 het licht aansteken boven het licht aansteken boven 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command71, best cost 134.551 + -288.93 = -154.379 over 171 frames.
+pp43-domotica3_command71 alle lichten uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command72, best cost 128.675 + -277.489 = -148.814 over 158 frames.
+pp43-domotica3_command72 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command73, best cost 106.623 + -216.678 = -110.055 over 121 frames.
+pp43-domotica3_command73 uit in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command74, best cost 148.781 + -327.529 = -178.748 over 184 frames.
+pp43-domotica3_command74 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command75, best cost 112.61 + -241.279 = -128.67 over 132 frames.
+pp43-domotica3_command75 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command76, best cost 108.45 + -220.235 = -111.785 over 126 frames.
+pp43-domotica3_command76 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command77, best cost 104.369 + -206.248 = -101.879 over 120 frames.
+pp43-domotica3_command77 uit in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command78, best cost 118.57 + -256.471 = -137.901 over 145 frames.
+pp43-domotica3_command78 in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command79, best cost 138.744 + -274.118 = -135.374 over 171 frames.
+pp43-domotica3_command79 in de deur open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command80, best cost 172.78 + -327.856 = -155.076 over 194 frames.
+pp43-domotica3_command80 in het licht aansteken boven het bed alle twee 
+LOG (lattice-scale[5.5.569~1-6f329]:main():lattice-scale.cc:107) Done 131 lattices.
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command81, best cost 117.333 + -257.383 = -140.049 over 146 frames.
+pp43-domotica3_command81 het licht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command82, best cost 123.823 + -269.594 = -145.77 over 151 frames.
+pp43-domotica3_command82 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command83, best cost 104.818 + -206.454 = -101.636 over 120 frames.
+pp43-domotica3_command83 in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command84, best cost 155.6 + -333.883 = -178.283 over 182 frames.
+pp43-domotica3_command84 uit in de alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command85, best cost 123.006 + -254.584 = -131.578 over 147 frames.
+pp43-domotica3_command85 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command86, best cost 109.143 + -235.098 = -125.955 over 127 frames.
+pp43-domotica3_command86 uit in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command87, best cost 104.37 + -220.628 = -116.258 over 120 frames.
+pp43-domotica3_command87 uit in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command88, best cost 128.966 + -299.739 = -170.773 over 160 frames.
+pp43-domotica3_command88 in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command89, best cost 141.513 + -300.965 = -159.451 over 176 frames.
+pp43-domotica3_command89 in de deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command9, best cost 148.17 + -302.178 = -154.008 over 184 frames.
+pp43-domotica3_command9 uit in de deur van de slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command90, best cost 151.557 + -299.224 = -147.667 over 166 frames.
+pp43-domotica3_command90 uit in het licht aansteken boven het bed aansteken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command91, best cost 131.813 + -269.157 = -137.344 over 155 frames.
+pp43-domotica3_command91 in de deur dicht uit in de slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command92, best cost 125.904 + -292.24 = -166.336 over 154 frames.
+pp43-domotica3_command92 uit in de deur dicht in de woonkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command93, best cost 119.098 + -246.773 = -127.675 over 139 frames.
+pp43-domotica3_command93 uit in open de deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command94, best cost 158.485 + -347.926 = -189.441 over 198 frames.
+pp43-domotica3_command94 doe alle lichten uit in de zitkamer en de keuken 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command95, best cost 119.542 + -231.775 = -112.233 over 142 frames.
+pp43-domotica3_command95 uit in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command96, best cost 103.874 + -214.788 = -110.915 over 121 frames.
+pp43-domotica3_command96 in hoofdeinde op stand twee 
+LOG (lattice-add-penalty[5.5.569~1-6f329]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 131 lattices.
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command97, best cost 100.904 + -211.88 = -110.975 over 115 frames.
+pp43-domotica3_command97 uit in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command98, best cost 119.956 + -282.286 = -162.33 over 147 frames.
+pp43-domotica3_command98 in de deur dicht van de kamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp43-domotica3_command99, best cost 151.29 + -329.046 = -177.756 over 187 frames.
+pp43-domotica3_command99 in de deur slaapkamer open doen 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:124) Overall cost per frame is -0.946784 = 0.828588 [graph] + -1.77537 [acoustic] over 20223 frames.
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:128) Done 131 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Mar 23 10:36:56 CET 2021, elapsed time 0 seconds

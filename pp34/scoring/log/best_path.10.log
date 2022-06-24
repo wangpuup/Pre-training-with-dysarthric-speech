@@ -1,0 +1,674 @@
+# lattice-scale --inv-acoustic-scale=10 "ark:gunzip -c exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/words.txt ark:- ark,t:exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/scoring/10.tra 
+# Started at Tue Mar 23 10:21:55 CET 2021
+#
+lattice-best-path --word-symbol-table=exp/percgncopas5k/chain_s/tree_sp/graph_5g_400k/words.txt ark:- ark,t:exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/scoring/10.tra 
+lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command1, best cost 287.269 + -793.695 = -506.426 over 371 frames.
+pp34-domotica3_command1 al de lichten in de woonkamer de keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command10, best cost 175.571 + -420.864 = -245.292 over 207 frames.
+pp34-domotica3_command10 drie een deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command100, best cost 144.997 + -377.255 = -232.257 over 188 frames.
+pp34-domotica3_command100 staande lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command101, best cost 155.374 + -415.37 = -259.996 over 191 frames.
+pp34-domotica3_command101 living staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command102, best cost 139.452 + -356.818 = -217.366 over 180 frames.
+pp34-domotica3_command102 staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command103, best cost 194.645 + -467.689 = -273.044 over 246 frames.
+pp34-domotica3_command103 living thermostaat chauffage op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command104, best cost 130.787 + -372.232 = -241.445 over 168 frames.
+pp34-domotica3_command104 in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command105, best cost 122.585 + -317.513 = -194.928 over 147 frames.
+pp34-domotica3_command105 living deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command106, best cost 136.65 + -314.511 = -177.861 over 176 frames.
+pp34-domotica3_command106 woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command107, best cost 189.841 + -447.577 = -257.736 over 242 frames.
+pp34-domotica3_command107 licht uit keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command108, best cost 138.946 + -365.491 = -226.545 over 166 frames.
+pp34-domotica3_command108 in al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command109, best cost 136.797 + -327.839 = -191.042 over 175 frames.
+pp34-domotica3_command109 deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command11, best cost 191.635 + -527.294 = -335.658 over 245 frames.
+pp34-domotica3_command11 rolluik deur badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command110, best cost 142.147 + -387.405 = -245.259 over 183 frames.
+pp34-domotica3_command110 in de badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command111, best cost 145.459 + -370.234 = -224.775 over 188 frames.
+pp34-domotica3_command111 dicht van badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command112, best cost 156.985 + -404.557 = -247.572 over 195 frames.
+pp34-domotica3_command112 in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command113, best cost 167.692 + -426.563 = -258.871 over 199 frames.
+pp34-domotica3_command113 living open op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command114, best cost 157.524 + -386.163 = -228.639 over 186 frames.
+pp34-domotica3_command114 in open op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command115, best cost 151.121 + -374.059 = -222.938 over 188 frames.
+pp34-domotica3_command115 living keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command116, best cost 128.044 + -329.757 = -201.713 over 158 frames.
+pp34-domotica3_command116 lamp aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command117, best cost 157.492 + -383.585 = -226.092 over 207 frames.
+pp34-domotica3_command117 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command118, best cost 148.564 + -362.74 = -214.176 over 195 frames.
+pp34-domotica3_command118 slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command119, best cost 172.25 + -426.415 = -254.165 over 220 frames.
+pp34-domotica3_command119 al beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command12, best cost 160.809 + -413.65 = -252.841 over 196 frames.
+pp34-domotica3_command12 in de lichten in de woonkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command120, best cost 168.603 + -425.349 = -256.746 over 220 frames.
+pp34-domotica3_command120 rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command121, best cost 146.834 + -384.724 = -237.89 over 182 frames.
+pp34-domotica3_command121 living rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command122, best cost 153.651 + -365.157 = -211.506 over 194 frames.
+pp34-domotica3_command122 chauffage living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command123, best cost 139.803 + -374.383 = -234.58 over 179 frames.
+pp34-domotica3_command123 deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command124, best cost 140.383 + -380.635 = -240.251 over 181 frames.
+pp34-domotica3_command124 deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command125, best cost 140.948 + -352.476 = -211.528 over 171 frames.
+pp34-domotica3_command125 in licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command126, best cost 171.928 + -468.208 = -296.28 over 222 frames.
+pp34-domotica3_command126 licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command127, best cost 154.678 + -395.34 = -240.661 over 190 frames.
+pp34-domotica3_command127 living staande lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command128, best cost 156.089 + -429.227 = -273.138 over 204 frames.
+pp34-domotica3_command128 staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command129, best cost 139.046 + -358.604 = -219.557 over 169 frames.
+pp34-domotica3_command129 in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command13, best cost 159.069 + -386.808 = -227.739 over 199 frames.
+pp34-domotica3_command13 in hoofdeinde op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command130, best cost 203.251 + -514.187 = -310.936 over 248 frames.
+pp34-domotica3_command130 al in thermostaat chauffage op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command131, best cost 136.586 + -396.485 = -259.899 over 178 frames.
+pp34-domotica3_command131 de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command132, best cost 148.727 + -394.743 = -246.016 over 173 frames.
+pp34-domotica3_command132 al de in deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command133, best cost 144.275 + -361.326 = -217.051 over 187 frames.
+pp34-domotica3_command133 woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command134, best cost 158.083 + -399.384 = -241.301 over 210 frames.
+pp34-domotica3_command134 keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command135, best cost 136.078 + -313.554 = -177.477 over 149 frames.
+pp34-domotica3_command135 living al de lichten in uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command136, best cost 142.347 + -397.469 = -255.122 over 186 frames.
+pp34-domotica3_command136 deur badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command137, best cost 157.936 + -438.988 = -281.052 over 198 frames.
+pp34-domotica3_command137 living deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command138, best cost 154.418 + -414.075 = -259.658 over 195 frames.
+pp34-domotica3_command138 in licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command139, best cost 169.308 + -463.076 = -293.768 over 203 frames.
+pp34-domotica3_command139 al in op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command14, best cost 169.1 + -439.409 = -270.308 over 213 frames.
+pp34-domotica3_command14 open op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command140, best cost 214.382 + -540.296 = -325.914 over 263 frames.
+pp34-domotica3_command140 al in living lamp op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command141, best cost 147.296 + -407.099 = -259.803 over 181 frames.
+pp34-domotica3_command141 rolluiken hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command142, best cost 136.44 + -362.887 = -226.446 over 162 frames.
+pp34-domotica3_command142 al de lichten keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command143, best cost 122.223 + -321.588 = -199.365 over 157 frames.
+pp34-domotica3_command143 in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command144, best cost 163.688 + -427.962 = -264.275 over 192 frames.
+pp34-domotica3_command144 al living rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command145, best cost 153.696 + -364.791 = -211.095 over 188 frames.
+pp34-domotica3_command145 living rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command146, best cost 161.017 + -373.749 = -212.732 over 202 frames.
+pp34-domotica3_command146 in rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command147, best cost 189.186 + -500.959 = -311.773 over 235 frames.
+pp34-domotica3_command147 rolluik rolluiken omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command148, best cost 122.172 + -310.692 = -188.52 over 136 frames.
+pp34-domotica3_command148 al in rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command149, best cost 146.399 + -341.86 = -195.461 over 176 frames.
+pp34-domotica3_command149 achterdeur rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command15, best cost 178.855 + -482.752 = -303.897 over 225 frames.
+pp34-domotica3_command15 van hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command150, best cost 227.812 + -688.271 = -460.46 over 294 frames.
+pp34-domotica3_command150 al deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command151, best cost 158.879 + -398.517 = -239.638 over 184 frames.
+pp34-domotica3_command151 al de in deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command152, best cost 138.559 + -349.669 = -211.111 over 166 frames.
+pp34-domotica3_command152 al licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command153, best cost 148.835 + -398.579 = -249.744 over 165 frames.
+pp34-domotica3_command153 al de in licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command154, best cost 138.735 + -334.982 = -196.246 over 167 frames.
+pp34-domotica3_command154 achterdeur staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command155, best cost 139.722 + -346.106 = -206.384 over 158 frames.
+pp34-domotica3_command155 van in staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command156, best cost 147.055 + -367.008 = -219.953 over 179 frames.
+pp34-domotica3_command156 al staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command157, best cost 150.401 + -308.202 = -157.801 over 180 frames.
+pp34-domotica3_command157 op drie thermostaat chauffage op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command158, best cost 126.034 + -318.496 = -192.462 over 147 frames.
+pp34-domotica3_command158 op drie in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command159, best cost 96.9605 + -267.051 = -170.09 over 122 frames.
+pp34-domotica3_command159 deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command16, best cost 137.873 + -335.543 = -197.67 over 177 frames.
+pp34-domotica3_command16 in de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command160, best cost 137.117 + -348.437 = -211.32 over 172 frames.
+pp34-domotica3_command160 al de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command161, best cost 165.47 + -373.93 = -208.46 over 212 frames.
+pp34-domotica3_command161 licht in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command162, best cost 133.903 + -320.165 = -186.262 over 155 frames.
+pp34-domotica3_command162 op drie al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command163, best cost 142.321 + -349.183 = -206.862 over 171 frames.
+pp34-domotica3_command163 al deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command164, best cost 137.294 + -354.175 = -216.881 over 176 frames.
+pp34-domotica3_command164 in de badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command165, best cost 160.514 + -392.869 = -232.355 over 184 frames.
+pp34-domotica3_command165 al in licht in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command166, best cost 178.181 + -481.108 = -302.927 over 236 frames.
+pp34-domotica3_command166 hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command167, best cost 176.454 + -465.294 = -288.84 over 211 frames.
+pp34-domotica3_command167 al in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command168, best cost 153.703 + -372.214 = -218.511 over 177 frames.
+pp34-domotica3_command168 al de in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command169, best cost 124.704 + -304.213 = -179.509 over 158 frames.
+pp34-domotica3_command169 in de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command17, best cost 156.735 + -394.986 = -238.251 over 194 frames.
+pp34-domotica3_command17 open lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command170, best cost 114.181 + -271.014 = -156.833 over 138 frames.
+pp34-domotica3_command170 lamp aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command171, best cost 145.32 + -327.193 = -181.873 over 179 frames.
+pp34-domotica3_command171 rolluiken rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command172, best cost 161.123 + -368.26 = -207.137 over 187 frames.
+pp34-domotica3_command172 al de in rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command173, best cost 149.615 + -332.979 = -183.364 over 184 frames.
+pp34-domotica3_command173 al rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command174, best cost 178.385 + -419.247 = -240.862 over 209 frames.
+pp34-domotica3_command174 rolluik in rolluiken omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command175, best cost 128.12 + -335.35 = -207.229 over 155 frames.
+pp34-domotica3_command175 al rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command176, best cost 160.22 + -341.699 = -181.478 over 172 frames.
+pp34-domotica3_command176 al drie een rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command177, best cost 151.856 + -389.374 = -237.518 over 174 frames.
+pp34-domotica3_command177 al in deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command178, best cost 128.6 + -347.493 = -218.893 over 164 frames.
+pp34-domotica3_command178 deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command179, best cost 133.565 + -307.63 = -174.065 over 164 frames.
+pp34-domotica3_command179 al de lichten in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command180, best cost 130.797 + -326.849 = -196.052 over 157 frames.
+pp34-domotica3_command180 al de lichten uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command181, best cost 144.974 + -340.8 = -195.826 over 176 frames.
+pp34-domotica3_command181 living staande lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command182, best cost 166.584 + -420.575 = -253.991 over 185 frames.
+pp34-domotica3_command182 al de in stand staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command183, best cost 138.758 + -371.212 = -232.454 over 179 frames.
+pp34-domotica3_command183 staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command184, best cost 186.127 + -449.899 = -263.772 over 222 frames.
+pp34-domotica3_command184 al de in thermostaat chauffage op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command185, best cost 125.809 + -350.691 = -224.883 over 157 frames.
+pp34-domotica3_command185 omhoog in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command186, best cost 130.012 + -349.676 = -219.664 over 146 frames.
+pp34-domotica3_command186 al de in deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command187, best cost 148.227 + -350.606 = -202.379 over 166 frames.
+pp34-domotica3_command187 al living in de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command188, best cost 161.316 + -345.463 = -184.147 over 195 frames.
+pp34-domotica3_command188 uit licht in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command189, best cost 150.709 + -373.877 = -223.168 over 171 frames.
+pp34-domotica3_command189 al in al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command19, best cost 183.12 + -433.458 = -250.338 over 232 frames.
+pp34-domotica3_command19 in rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command190, best cost 159.94 + -367.514 = -207.574 over 186 frames.
+pp34-domotica3_command190 al in deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command191, best cost 180.508 + -480.958 = -300.45 over 228 frames.
+pp34-domotica3_command191 living deur badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command192, best cost 143.466 + -366.596 = -223.13 over 181 frames.
+pp34-domotica3_command192 lichten in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command193, best cost 153.412 + -361.55 = -208.139 over 187 frames.
+pp34-domotica3_command193 al de hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command194, best cost 157.249 + -387.052 = -229.803 over 182 frames.
+pp34-domotica3_command194 al de in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command195, best cost 154.885 + -352.914 = -198.029 over 180 frames.
+pp34-domotica3_command195 al in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command196, best cost 144.295 + -350.892 = -206.596 over 173 frames.
+pp34-domotica3_command196 al de in de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command197, best cost 128.205 + -289.219 = -161.014 over 145 frames.
+pp34-domotica3_command197 licht in lamp op aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command198, best cost 160.534 + -385.292 = -224.758 over 189 frames.
+pp34-domotica3_command198 al in rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command199, best cost 165.481 + -437.409 = -271.928 over 205 frames.
+pp34-domotica3_command199 al rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command2, best cost 203.046 + -538.34 = -335.293 over 255 frames.
+pp34-domotica3_command2 in lichten in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command20, best cost 189.819 + -455.626 = -265.808 over 242 frames.
+pp34-domotica3_command20 een rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command200, best cost 171.393 + -396.452 = -225.059 over 205 frames.
+pp34-domotica3_command200 al in rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command201, best cost 135.188 + -307.996 = -172.808 over 168 frames.
+pp34-domotica3_command201 rolluik omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command202, best cost 156.519 + -343.945 = -187.426 over 184 frames.
+pp34-domotica3_command202 drie een rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command203, best cost 153.781 + -336.348 = -182.567 over 174 frames.
+pp34-domotica3_command203 al de in de rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command204, best cost 171.975 + -429.3 = -257.325 over 190 frames.
+pp34-domotica3_command204 al living deur open slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command205, best cost 142.937 + -356.637 = -213.7 over 161 frames.
+pp34-domotica3_command205 al de in deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command206, best cost 143.756 + -374.055 = -230.3 over 172 frames.
+pp34-domotica3_command206 al de licht in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command207, best cost 148.957 + -364.546 = -215.589 over 177 frames.
+pp34-domotica3_command207 al lichten uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command208, best cost 169.037 + -425.042 = -256.005 over 199 frames.
+pp34-domotica3_command208 al de in staande lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command209, best cost 155.176 + -399.388 = -244.212 over 179 frames.
+pp34-domotica3_command209 al de in staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command21, best cost 179.468 + -400.91 = -221.442 over 232 frames.
+pp34-domotica3_command21 rolluiken omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command210, best cost 155.866 + -403.621 = -247.755 over 180 frames.
+pp34-domotica3_command210 al de in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command211, best cost 169.729 + -359.478 = -189.749 over 211 frames.
+pp34-domotica3_command211 rolluik thermostaat chauffage op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command212, best cost 126.812 + -332.038 = -205.226 over 149 frames.
+pp34-domotica3_command212 al de in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command213, best cost 118.426 + -298.412 = -179.986 over 141 frames.
+pp34-domotica3_command213 living deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command214, best cost 155.47 + -376.411 = -220.94 over 178 frames.
+pp34-domotica3_command214 al in in de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command215, best cost 155.465 + -370.069 = -214.604 over 191 frames.
+pp34-domotica3_command215 al de lichten in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command216, best cost 142.391 + -363.551 = -221.16 over 159 frames.
+pp34-domotica3_command216 al in al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command217, best cost 151.133 + -341.937 = -190.804 over 172 frames.
+pp34-domotica3_command217 al de in deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command218, best cost 153.971 + -365.193 = -211.222 over 178 frames.
+pp34-domotica3_command218 al de in deur badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command219, best cost 156.228 + -377.47 = -221.242 over 181 frames.
+pp34-domotica3_command219 al de in living badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command22, best cost 149.607 + -380.186 = -230.579 over 186 frames.
+pp34-domotica3_command22 living rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command220, best cost 147.469 + -354.612 = -207.143 over 169 frames.
+pp34-domotica3_command220 al de in hoofdeinde op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command222, best cost 145.18 + -352.518 = -207.338 over 166 frames.
+pp34-domotica3_command222 al in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command223, best cost 136.487 + -330.584 = -194.096 over 175 frames.
+pp34-domotica3_command223 in de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command224, best cost 134.465 + -309.124 = -174.658 over 154 frames.
+pp34-domotica3_command224 al de lamp aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command225, best cost 151.926 + -353.777 = -201.851 over 187 frames.
+pp34-domotica3_command225 al rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command226, best cost 160.226 + -365.069 = -204.843 over 187 frames.
+pp34-domotica3_command226 al in rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command227, best cost 174.457 + -388.023 = -213.566 over 191 frames.
+pp34-domotica3_command227 al in rolluik al open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command228, best cost 173.005 + -392.285 = -219.28 over 199 frames.
+pp34-domotica3_command228 al de in rolluiken omhoog deur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command229, best cost 137.824 + -366.394 = -228.569 over 169 frames.
+pp34-domotica3_command229 al rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command23, best cost 161.918 + -377.849 = -215.931 over 190 frames.
+pp34-domotica3_command23 al rolluiken omhoog deur living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command230, best cost 158.678 + -354.468 = -195.79 over 182 frames.
+pp34-domotica3_command230 al de in rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command231, best cost 133.544 + -351.366 = -217.823 over 158 frames.
+pp34-domotica3_command231 al deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command232, best cost 133.048 + -354.757 = -221.709 over 160 frames.
+pp34-domotica3_command232 in deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command233, best cost 142.568 + -363.589 = -221.02 over 175 frames.
+pp34-domotica3_command233 uit in de lichten in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command234, best cost 142.795 + -380.886 = -238.091 over 168 frames.
+pp34-domotica3_command234 al licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command235, best cost 141.509 + -370.622 = -229.114 over 171 frames.
+pp34-domotica3_command235 al staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command236, best cost 133.908 + -382.398 = -248.49 over 172 frames.
+pp34-domotica3_command236 staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command237, best cost 149.135 + -370.269 = -221.133 over 182 frames.
+pp34-domotica3_command237 al staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command238, best cost 197.014 + -488.48 = -291.466 over 239 frames.
+pp34-domotica3_command238 al in thermostaat chauffage op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command239, best cost 150.867 + -445.391 = -294.524 over 185 frames.
+pp34-domotica3_command239 al in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command240, best cost 126.546 + -340.325 = -213.779 over 141 frames.
+pp34-domotica3_command240 al de in deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command241, best cost 147.554 + -380.325 = -232.771 over 177 frames.
+pp34-domotica3_command241 living in de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command242, best cost 175.557 + -397.292 = -221.735 over 220 frames.
+pp34-domotica3_command242 uit in de lichten in de keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command243, best cost 134.278 + -336.847 = -202.569 over 146 frames.
+pp34-domotica3_command243 al de in al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command244, best cost 153.686 + -380.86 = -227.174 over 186 frames.
+pp34-domotica3_command244 living deur dicht van badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command245, best cost 141.433 + -356.917 = -215.484 over 170 frames.
+pp34-domotica3_command245 al in de badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command246, best cost 139.027 + -341.213 = -202.186 over 153 frames.
+pp34-domotica3_command246 al in licht in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command247, best cost 164.794 + -388.445 = -223.651 over 193 frames.
+pp34-domotica3_command247 al de in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command248, best cost 154.274 + -379.989 = -225.716 over 179 frames.
+pp34-domotica3_command248 al in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command249, best cost 143.793 + -340.071 = -196.278 over 164 frames.
+pp34-domotica3_command249 al in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command25, best cost 173.904 + -442.492 = -268.588 over 206 frames.
+pp34-domotica3_command25 aan living licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command250, best cost 137.522 + -319.497 = -181.975 over 155 frames.
+pp34-domotica3_command250 uit in dicht keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command251, best cost 129.846 + -302.619 = -172.772 over 158 frames.
+pp34-domotica3_command251 living licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command252, best cost 145.709 + -372.13 = -226.421 over 190 frames.
+pp34-domotica3_command252 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command253, best cost 146.787 + -348.462 = -201.675 over 190 frames.
+pp34-domotica3_command253 rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command254, best cost 162.557 + -382.055 = -219.498 over 200 frames.
+pp34-domotica3_command254 in rolluik achterdeur 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command255, best cost 156.674 + -379.349 = -222.676 over 199 frames.
+pp34-domotica3_command255 rolluik omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command256, best cost 141.531 + -368.03 = -226.499 over 172 frames.
+pp34-domotica3_command256 uit in rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command257, best cost 148.479 + -317.383 = -168.904 over 179 frames.
+pp34-domotica3_command257 living rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command258, best cost 158.298 + -409.806 = -251.508 over 182 frames.
+pp34-domotica3_command258 al de in deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command259, best cost 146.402 + -352.765 = -206.363 over 166 frames.
+pp34-domotica3_command259 al de in deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command26, best cost 160.816 + -387.06 = -226.244 over 194 frames.
+pp34-domotica3_command26 living licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command260, best cost 139.577 + -333.672 = -194.095 over 158 frames.
+pp34-domotica3_command260 rolluik in licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command261, best cost 144.904 + -351.558 = -206.655 over 169 frames.
+pp34-domotica3_command261 lichten in licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command262, best cost 133.214 + -348.865 = -215.652 over 171 frames.
+pp34-domotica3_command262 staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command263, best cost 160.205 + -430.046 = -269.841 over 186 frames.
+pp34-domotica3_command263 al living staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command264, best cost 146.856 + -342.309 = -195.453 over 167 frames.
+pp34-domotica3_command264 al de in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command265, best cost 193.754 + -480.164 = -286.41 over 233 frames.
+pp34-domotica3_command265 al de in thermostaat chauffage op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command266, best cost 125.95 + -323.476 = -197.527 over 150 frames.
+pp34-domotica3_command266 rolluik in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command267, best cost 122.586 + -330.295 = -207.709 over 147 frames.
+pp34-domotica3_command267 al deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command268, best cost 149.634 + -389.539 = -239.906 over 180 frames.
+pp34-domotica3_command268 living in de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command269, best cost 162.083 + -394.407 = -232.325 over 208 frames.
+pp34-domotica3_command269 al de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command27, best cost 183.77 + -481.777 = -298.007 over 220 frames.
+pp34-domotica3_command27 al living staande lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command270, best cost 135.17 + -316.054 = -180.884 over 159 frames.
+pp34-domotica3_command270 al al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command271, best cost 156.183 + -386.315 = -230.132 over 191 frames.
+pp34-domotica3_command271 living deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command272, best cost 143.716 + -370.931 = -227.215 over 172 frames.
+pp34-domotica3_command272 al de in de badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command273, best cost 129.886 + -302.753 = -172.867 over 165 frames.
+pp34-domotica3_command273 in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command274, best cost 154.395 + -364.173 = -209.778 over 178 frames.
+pp34-domotica3_command274 al de in hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command275, best cost 151.501 + -385.391 = -233.89 over 175 frames.
+pp34-domotica3_command275 al in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command276, best cost 167.169 + -400.798 = -233.629 over 194 frames.
+pp34-domotica3_command276 op drie een hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command277, best cost 139.198 + -365.379 = -226.182 over 177 frames.
+pp34-domotica3_command277 al de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command278, best cost 140.207 + -313.568 = -173.361 over 161 frames.
+pp34-domotica3_command278 al de in slaapkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command279, best cost 167.175 + -403.723 = -236.547 over 209 frames.
+pp34-domotica3_command279 al rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command28, best cost 178.247 + -477.4 = -299.153 over 224 frames.
+pp34-domotica3_command28 living staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command280, best cost 195.088 + -503.345 = -308.257 over 236 frames.
+pp34-domotica3_command280 al de in rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command281, best cost 154.489 + -390.442 = -235.953 over 203 frames.
+pp34-domotica3_command281 rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command282, best cost 152.495 + -320.062 = -167.568 over 181 frames.
+pp34-domotica3_command282 open rolluik omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command283, best cost 124.965 + -292.452 = -167.487 over 152 frames.
+pp34-domotica3_command283 in rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command284, best cost 151.054 + -316.276 = -165.222 over 171 frames.
+pp34-domotica3_command284 al de in rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command285, best cost 145.326 + -370.059 = -224.733 over 175 frames.
+pp34-domotica3_command285 living deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command286, best cost 138.455 + -340.757 = -202.302 over 165 frames.
+pp34-domotica3_command286 licht in deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command287, best cost 142.349 + -340.153 = -197.803 over 162 frames.
+pp34-domotica3_command287 rolluik in licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command288, best cost 142.101 + -332.637 = -190.536 over 167 frames.
+pp34-domotica3_command288 living licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command289, best cost 142.003 + -321.159 = -179.155 over 160 frames.
+pp34-domotica3_command289 al de in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command29, best cost 171.293 + -458.335 = -287.042 over 202 frames.
+pp34-domotica3_command29 al living staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command290, best cost 131.808 + -338.178 = -206.37 over 157 frames.
+pp34-domotica3_command290 open staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command291, best cost 149.301 + -365.258 = -215.957 over 171 frames.
+pp34-domotica3_command291 al de in slaapkamer op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command292, best cost 177.35 + -403.683 = -226.334 over 221 frames.
+pp34-domotica3_command292 al thermostaat chauffage op eenentwintig 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command293, best cost 116.168 + -321.882 = -205.713 over 145 frames.
+pp34-domotica3_command293 al de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command294, best cost 117.733 + -309.367 = -191.634 over 140 frames.
+pp34-domotica3_command294 living deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command295, best cost 144.361 + -368.013 = -223.652 over 175 frames.
+pp34-domotica3_command295 al de lichten in de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command296, best cost 227.612 + -573.374 = -345.762 over 297 frames.
+pp34-domotica3_command296 in de lichten in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command297, best cost 132.723 + -315.55 = -182.828 over 157 frames.
+pp34-domotica3_command297 rolluiken al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command298, best cost 179.552 + -432.255 = -252.703 over 213 frames.
+pp34-domotica3_command298 al de in deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command299, best cost 135.052 + -310.341 = -175.289 over 152 frames.
+pp34-domotica3_command299 al in deur badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command3, best cost 183.789 + -501.905 = -318.116 over 228 frames.
+pp34-domotica3_command3 living licht in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command30, best cost 188.023 + -426.941 = -238.918 over 238 frames.
+pp34-domotica3_command30 in thermostaat chauffage op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command300, best cost 136.824 + -325.191 = -188.366 over 161 frames.
+pp34-domotica3_command300 in lichten in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command301, best cost 140.037 + -327.374 = -187.336 over 169 frames.
+pp34-domotica3_command301 living hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command302, best cost 120.917 + -291.942 = -171.024 over 145 frames.
+pp34-domotica3_command302 omhoog op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command303, best cost 164.64 + -396.416 = -231.776 over 183 frames.
+pp34-domotica3_command303 al de in open op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command304, best cost 142.031 + -384.631 = -242.6 over 183 frames.
+pp34-domotica3_command304 in de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command305, best cost 143.838 + -325.779 = -181.941 over 158 frames.
+pp34-domotica3_command305 al in living slaapkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command306, best cost 150.561 + -390.535 = -239.974 over 197 frames.
+pp34-domotica3_command306 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command307, best cost 143.321 + -349.576 = -206.255 over 185 frames.
+pp34-domotica3_command307 rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command308, best cost 141.318 + -322.881 = -181.563 over 184 frames.
+pp34-domotica3_command308 rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command309, best cost 155.981 + -377.485 = -221.503 over 198 frames.
+pp34-domotica3_command309 rolluik omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command31, best cost 133.558 + -382.54 = -248.982 over 172 frames.
+pp34-domotica3_command31 in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command310, best cost 142.545 + -354.156 = -211.611 over 168 frames.
+pp34-domotica3_command310 al de lichten in rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command311, best cost 148.559 + -352.332 = -203.773 over 179 frames.
+pp34-domotica3_command311 living rolluik omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command312, best cost 152.06 + -398.855 = -246.795 over 173 frames.
+pp34-domotica3_command312 al de in deur slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command313, best cost 140.857 + -371.773 = -230.915 over 158 frames.
+pp34-domotica3_command313 al de in deur slaapkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command314, best cost 134.017 + -320.305 = -186.289 over 161 frames.
+pp34-domotica3_command314 in licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command315, best cost 145.109 + -347.903 = -202.794 over 173 frames.
+pp34-domotica3_command315 in lichten uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command316, best cost 140.432 + -336.35 = -195.918 over 171 frames.
+pp34-domotica3_command316 in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command317, best cost 147.749 + -402.944 = -255.195 over 180 frames.
+pp34-domotica3_command317 living staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command318, best cost 151.171 + -345.657 = -194.486 over 161 frames.
+pp34-domotica3_command318 al drie een staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command319, best cost 179.417 + -401.22 = -221.803 over 213 frames.
+pp34-domotica3_command319 al dicht thermostaat chauffage op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command32, best cost 130.925 + -367.957 = -237.032 over 171 frames.
+pp34-domotica3_command32 deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command320, best cost 116.231 + -317.073 = -200.842 over 147 frames.
+pp34-domotica3_command320 in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command321, best cost 189.623 + -555.248 = -365.626 over 232 frames.
+pp34-domotica3_command321 al de in deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command322, best cost 142.654 + -328.545 = -185.891 over 178 frames.
+pp34-domotica3_command322 uit in de woonkamer licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command323, best cost 173.55 + -427.401 = -253.851 over 216 frames.
+pp34-domotica3_command323 licht in woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command324, best cost 139.33 + -332.352 = -193.022 over 165 frames.
+pp34-domotica3_command324 open al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command325, best cost 156.494 + -387.623 = -231.129 over 193 frames.
+pp34-domotica3_command325 in deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command326, best cost 138.722 + -341.096 = -202.375 over 156 frames.
+pp34-domotica3_command326 al de in deur badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command328, best cost 166.165 + -422.412 = -256.247 over 217 frames.
+pp34-domotica3_command328 chauffage op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command329, best cost 153.6 + -402.248 = -248.648 over 190 frames.
+pp34-domotica3_command329 in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command33, best cost 167.161 + -407.395 = -240.234 over 220 frames.
+pp34-domotica3_command33 woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command330, best cost 156.48 + -376.131 = -219.651 over 182 frames.
+pp34-domotica3_command330 al de in hoofdeinde op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command331, best cost 158.646 + -387.846 = -229.2 over 183 frames.
+pp34-domotica3_command331 living licht in living keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command332, best cost 154.383 + -394.168 = -239.785 over 196 frames.
+pp34-domotica3_command332 lamp aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command333, best cost 150.561 + -379.643 = -229.082 over 197 frames.
+pp34-domotica3_command333 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command334, best cost 159.972 + -395.003 = -235.032 over 198 frames.
+pp34-domotica3_command334 rolluik rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command335, best cost 160.013 + -382.16 = -222.146 over 199 frames.
+pp34-domotica3_command335 al rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command34, best cost 158.758 + -458.18 = -299.422 over 205 frames.
+pp34-domotica3_command34 al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command35, best cost 137.49 + -352.435 = -214.945 over 176 frames.
+pp34-domotica3_command35 deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command36, best cost 138.619 + -357.221 = -218.602 over 176 frames.
+pp34-domotica3_command36 al de badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command37, best cost 163.828 + -438.969 = -275.14 over 202 frames.
+pp34-domotica3_command37 living in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command38, best cost 171.54 + -440.298 = -268.758 over 216 frames.
+pp34-domotica3_command38 in hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command39, best cost 163.304 + -449.91 = -286.606 over 204 frames.
+pp34-domotica3_command39 in hoofdeinde op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command4, best cost 166.974 + -435.154 = -268.18 over 194 frames.
+pp34-domotica3_command4 living lamp al 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command40, best cost 155.074 + -396.279 = -241.205 over 201 frames.
+pp34-domotica3_command40 chauffage op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command41, best cost 141.478 + -360.86 = -219.382 over 173 frames.
+pp34-domotica3_command41 in living keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command42, best cost 140.498 + -338.555 = -198.057 over 164 frames.
+pp34-domotica3_command42 living lamp aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command43, best cost 174.13 + -470.403 = -296.273 over 231 frames.
+pp34-domotica3_command43 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command44, best cost 170.643 + -412.138 = -241.495 over 214 frames.
+pp34-domotica3_command44 in rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command45, best cost 170.431 + -425.107 = -254.677 over 226 frames.
+pp34-domotica3_command45 rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command46, best cost 195.962 + -472.232 = -276.27 over 239 frames.
+pp34-domotica3_command46 living rolluik omhoog deur living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command47, best cost 145.47 + -405.078 = -259.608 over 192 frames.
+pp34-domotica3_command47 rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command48, best cost 162.005 + -413.574 = -251.569 over 207 frames.
+pp34-domotica3_command48 rolluik living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command49, best cost 163.533 + -459.112 = -295.579 over 214 frames.
+pp34-domotica3_command49 licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command5, best cost 176.207 + -462.469 = -286.262 over 234 frames.
+pp34-domotica3_command5 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command50, best cost 162.224 + -415.285 = -253.061 over 208 frames.
+pp34-domotica3_command50 licht uit in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command51, best cost 151.929 + -413.425 = -261.496 over 198 frames.
+pp34-domotica3_command51 staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command52, best cost 160.537 + -464.315 = -303.778 over 200 frames.
+pp34-domotica3_command52 in staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command53, best cost 154.989 + -404.242 = -249.254 over 192 frames.
+pp34-domotica3_command53 in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command54, best cost 173.102 + -403.057 = -229.955 over 228 frames.
+pp34-domotica3_command54 chauffage op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command55, best cost 123.161 + -355.037 = -231.876 over 157 frames.
+pp34-domotica3_command55 in de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command56, best cost 121.892 + -337.334 = -215.442 over 146 frames.
+pp34-domotica3_command56 living deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command57, best cost 190.02 + -482.687 = -292.667 over 237 frames.
+pp34-domotica3_command57 in licht in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command58, best cost 162.004 + -427.779 = -265.775 over 186 frames.
+pp34-domotica3_command58 al de in al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command59, best cost 173.61 + -437.574 = -263.964 over 202 frames.
+pp34-domotica3_command59 op drie een deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command6, best cost 235.141 + -572.848 = -337.707 over 285 frames.
+pp34-domotica3_command6 al in rolluik achterdeur achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command60, best cost 165.281 + -456.138 = -290.858 over 218 frames.
+pp34-domotica3_command60 deur badkamer open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command61, best cost 164.687 + -383.564 = -218.877 over 195 frames.
+pp34-domotica3_command61 al de living licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command62, best cost 159.468 + -404.491 = -245.023 over 209 frames.
+pp34-domotica3_command62 hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command63, best cost 143.791 + -360.175 = -216.384 over 178 frames.
+pp34-domotica3_command63 omhoog op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command64, best cost 152.762 + -374.747 = -221.985 over 186 frames.
+pp34-domotica3_command64 uit in hoofdeinde op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command65, best cost 142.032 + -392.699 = -250.666 over 183 frames.
+pp34-domotica3_command65 in de keuken aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command66, best cost 139.572 + -369.755 = -230.183 over 184 frames.
+pp34-domotica3_command66 licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command67, best cost 141.55 + -355.999 = -214.449 over 184 frames.
+pp34-domotica3_command67 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command68, best cost 157.245 + -397.273 = -240.028 over 204 frames.
+pp34-domotica3_command68 in slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command69, best cost 168.351 + -432.598 = -264.247 over 223 frames.
+pp34-domotica3_command69 rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command7, best cost 164.422 + -397.235 = -232.813 over 202 frames.
+pp34-domotica3_command7 al rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command70, best cost 171.924 + -432.24 = -260.316 over 221 frames.
+pp34-domotica3_command70 rolluik omhoog deur in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command71, best cost 156.538 + -429.226 = -272.688 over 196 frames.
+pp34-domotica3_command71 achterdeur rolluiken neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command72, best cost 153.917 + -371.044 = -217.126 over 192 frames.
+pp34-domotica3_command72 al de in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command73, best cost 146.204 + -396.021 = -249.817 over 189 frames.
+pp34-domotica3_command73 licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command74, best cost 141.631 + -375.28 = -233.649 over 185 frames.
+pp34-domotica3_command74 in slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command75, best cost 149.156 + -415.342 = -266.186 over 194 frames.
+pp34-domotica3_command75 staande lamp op een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command76, best cost 163.021 + -459.616 = -296.595 over 214 frames.
+pp34-domotica3_command76 staande lamp op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command77, best cost 166.773 + -458.238 = -291.465 over 209 frames.
+pp34-domotica3_command77 in staande lamp op drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command78, best cost 205.735 + -502.391 = -296.656 over 262 frames.
+pp34-domotica3_command78 living thermostaat chauffage op twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command79, best cost 126.189 + -368.76 = -242.571 over 163 frames.
+pp34-domotica3_command79 de voordeur toe 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command8, best cost 190.876 + -488.676 = -297.8 over 244 frames.
+pp34-domotica3_command8 in de lichten in de woonkamer en keuken uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command80, best cost 130.211 + -371.885 = -241.674 over 158 frames.
+pp34-domotica3_command80 al deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command81, best cost 175.78 + -437.284 = -261.504 over 227 frames.
+pp34-domotica3_command81 woonkamer uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command82, best cost 146.551 + -372.695 = -226.144 over 165 frames.
+pp34-domotica3_command82 al in al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command83, best cost 167.295 + -465.41 = -298.115 over 219 frames.
+pp34-domotica3_command83 deur dicht van badkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command84, best cost 145.481 + -410.938 = -265.457 over 192 frames.
+pp34-domotica3_command84 deur open 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command85, best cost 154.839 + -404.51 = -249.671 over 201 frames.
+pp34-domotica3_command85 in de badkamer aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command86, best cost 182.592 + -433.488 = -250.897 over 208 frames.
+pp34-domotica3_command86 al in open hoofdeinde op stand een 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command87, best cost 182.051 + -461.697 = -279.647 over 208 frames.
+pp34-domotica3_command87 al de in open op stand twee 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command88, best cost 158.774 + -431.207 = -272.432 over 208 frames.
+pp34-domotica3_command88 hoofdeinde op stand drie 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command89, best cost 134.027 + -347.169 = -213.141 over 176 frames.
+pp34-domotica3_command89 licht aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command9, best cost 145.567 + -382.82 = -237.254 over 174 frames.
+pp34-domotica3_command9 living al de lichten uit 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command90, best cost 120.419 + -306.633 = -186.214 over 147 frames.
+pp34-domotica3_command90 lamp aan 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command91, best cost 152.642 + -406.798 = -254.156 over 200 frames.
+pp34-domotica3_command91 rolluiken slaapkamer neer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command92, best cost 179.145 + -424.464 = -245.319 over 213 frames.
+pp34-domotica3_command92 al de in rolluiken slaapkamer omhoog 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command93, best cost 173.203 + -430.832 = -257.629 over 230 frames.
+pp34-domotica3_command93 rolluik achterdeur naar beneden 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command94, best cost 157.766 + -377.878 = -220.113 over 207 frames.
+pp34-domotica3_command94 omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command95, best cost 116.437 + -321.555 = -205.118 over 157 frames.
+pp34-domotica3_command95 
+LOG (lattice-scale[5.5.569~1-6f329]:main():lattice-scale.cc:107) Done 331 lattices.
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command96, best cost 160.977 + -416.705 = -255.728 over 209 frames.
+pp34-domotica3_command96 rolluiken omhoog in living 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command97, best cost 149.128 + -396.539 = -247.41 over 192 frames.
+pp34-domotica3_command97 in slaapkamer dicht 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command98, best cost 139.966 + -350.406 = -210.44 over 180 frames.
+pp34-domotica3_command98 licht aan slaapkamer 
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:99) For utterance pp34-domotica3_command99, best cost 148.361 + -368.495 = -220.134 over 188 frames.
+pp34-domotica3_command99 licht uit in slaapkamer 
+LOG (lattice-add-penalty[5.5.569~1-6f329]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 331 lattices.
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:124) Overall cost per frame is -1.23646 = 0.81714 [graph] + -2.0536 [acoustic] over 62276 frames.
+LOG (lattice-best-path[5.5.569~1-6f329]:main():lattice-best-path.cc:128) Done 331 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Mar 23 10:21:56 CET 2021, elapsed time 1 seconds

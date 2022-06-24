@@ -1,0 +1,113 @@
+ pp33-domotica3_command1 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command2 aladin slaapkamerdeur open
+ pp33-domotica3_command4 aladin slaapkamerlicht uit
+ pp33-domotica3_command5 aladin deur open
+ pp33-domotica3_command7 aladin hoofdeinde op stand een
+ pp33-domotica3_command8 aladin hoofdeinde op stand een
+ pp33-domotica3_command9 aladin hoofdeinde op stand twee
+ pp33-domotica3_command10 aladin hoofdeinde op stand drie
+ pp33-domotica3_command11 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command13 aladin slaapkamerdeur open
+ pp33-domotica3_command14 aladin de slaapkamerlicht aan
+ pp33-domotica3_command15 aladin slaapkamerlicht uit
+ pp33-domotica3_command16 aladin voordeur dicht
+ pp33-domotica3_command17 aladin deur open
+ pp33-domotica3_command18 aladin alle lampen uit
+ pp33-domotica3_command19 aladin hoofdeinde op stand een
+ pp33-domotica3_command20 aladin hoofdeinde op stand twee
+ pp33-domotica3_command21 aladin hoofdeinde op stand drie
+ pp33-domotica3_command22 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command23 aladin slaapkamerdeur open
+ pp33-domotica3_command24 aladin de slaapkamerlicht aan
+ pp33-domotica3_command25 aladin slaapkamerlicht uit
+ pp33-domotica3_command26 aladin voordeur dicht
+ pp33-domotica3_command27 aladin deur open
+ pp33-domotica3_command28 aladin alle lampen uit
+ pp33-domotica3_command29 aladin hoofdeinde op stand een
+ pp33-domotica3_command30 aladin hoofdeinde op stand twee
+ pp33-domotica3_command31 aladin hoofdeinde op stand drie
+ pp33-domotica3_command32 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command33 aladin slaapkamerdeur open
+ pp33-domotica3_command34 aladin de slaapkamerlicht aan
+ pp33-domotica3_command35 aladin slaapkamerlicht uit
+ pp33-domotica3_command36 aladin voordeur dicht
+ pp33-domotica3_command37 aladin deur open
+ pp33-domotica3_command38 aladin alle lampen uit
+ pp33-domotica3_command39 aladin hoofdeinde op stand een
+ pp33-domotica3_command40 aladin hoofdeinde op stand twee
+ pp33-domotica3_command41 aladin hoofdeinde op stand drie
+ pp33-domotica3_command42 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command44 aladin slaapkamerdeur open
+ pp33-domotica3_command45 aladin de slaapkamerlicht aan
+ pp33-domotica3_command46 aladin slaapkamerlicht uit
+ pp33-domotica3_command47 aladin voordeur dicht
+ pp33-domotica3_command48 aladin deur open
+ pp33-domotica3_command49 aladin alle lampen uit
+ pp33-domotica3_command50 aladin hoofdeinde op stand een
+ pp33-domotica3_command51 aladin hoofdeinde op stand twee
+ pp33-domotica3_command52 aladin hoofdeinde op stand drie
+ pp33-domotica3_command53 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command54 aladin slaapkamerdeur open
+ pp33-domotica3_command55 aladin de slaapkamerlicht aan
+ pp33-domotica3_command56 aladin slaapkamerlicht uit
+ pp33-domotica3_command57 aladin voordeur dicht
+ pp33-domotica3_command58 aladin deur open
+ pp33-domotica3_command59 aladin alle lampen uit
+ pp33-domotica3_command60 aladin hoofdeinde op stand een
+ pp33-domotica3_command61 aladin hoofdeinde op stand twee
+ pp33-domotica3_command62 aladin hoofdeinde op stand drie
+ pp33-domotica3_command63 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command64 aladin slaapkamerdeur open
+ pp33-domotica3_command65 aladin de slaapkamerlicht aan
+ pp33-domotica3_command66 aladin slaapkamerlicht uit
+ pp33-domotica3_command67 aladin voordeur dicht
+ pp33-domotica3_command68 aladin deur open
+ pp33-domotica3_command69 aladin alle lampen uit
+ pp33-domotica3_command70 aladin hoofdeinde op stand een
+ pp33-domotica3_command71 aladin hoofdeinde op stand twee
+ pp33-domotica3_command72 aladin hoofdeinde op stand drie
+ pp33-domotica3_command73 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command74 aladin slaapkamerdeur open
+ pp33-domotica3_command75 aladin de slaapkamerlicht aan
+ pp33-domotica3_command76 aladin slaapkamerlicht uit
+ pp33-domotica3_command77 aladin voordeur dicht
+ pp33-domotica3_command78 aladin deur open
+ pp33-domotica3_command79 aladin alle lampen uit
+ pp33-domotica3_command80 aladin hoofdeinde op stand een
+ pp33-domotica3_command81 aladin hoofdeinde op stand twee
+ pp33-domotica3_command82 aladin hoofdeinde op stand drie
+ pp33-domotica3_command83 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command84 aladin slaapkamerdeur open
+ pp33-domotica3_command85 aladin de slaapkamerlicht aan
+ pp33-domotica3_command86 aladin slaapkamerlicht uit
+ pp33-domotica3_command87 aladin voordeur dicht
+ pp33-domotica3_command88 aladin deur open
+ pp33-domotica3_command89 aladin alle lampen uit
+ pp33-domotica3_command90 aladin hoofdeinde op stand een
+ pp33-domotica3_command91 aladin hoofdeinde op stand twee
+ pp33-domotica3_command92 aladin hoofdeinde op stand drie
+ pp33-domotica3_command93 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command94 aladin slaapkamerdeur open
+ pp33-domotica3_command95 aladin de slaapkamerlicht aan
+ pp33-domotica3_command96 aladin slaapkamerlicht uit
+ pp33-domotica3_command97 aladin voordeur dicht
+ pp33-domotica3_command98 aladin deur open
+ pp33-domotica3_command99 aladin alle lampen uit
+ pp33-domotica3_command100 aladin hoofdeinde op stand een
+ pp33-domotica3_command101 aladin hoofdeinde op stand twee
+ pp33-domotica3_command102 aladin hoofdeinde op stand drie
+ pp33-domotica3_command103 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command104 aladin slaapkamerdeur open
+ pp33-domotica3_command105 aladin de slaapkamerlicht aan
+ pp33-domotica3_command106 aladin slaapkamerlicht uit
+ pp33-domotica3_command107 aladin voordeur dicht
+ pp33-domotica3_command108 aladin deur open
+ pp33-domotica3_command109 aladin alle lampen uit
+ pp33-domotica3_command110 aladin hoofdeinde op stand een
+ pp33-domotica3_command111 aladin hoofdeinde op stand twee
+ pp33-domotica3_command112 aladin hoofdeinde op stand drie
+ pp33-domotica3_command115 aladin de slaapkamerdeur dicht
+ pp33-domotica3_command116 aladin slaapkamerdeur open
+ pp33-domotica3_command117 aladin de slaapkamerlicht aan
+ pp33-domotica3_command118 aladin slaapkamerlicht uit
+ pp33-domotica3_command119 aladin voordeur dicht

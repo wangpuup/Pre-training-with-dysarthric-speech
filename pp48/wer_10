@@ -1,0 +1,4 @@
+compute-wer --text --mode=present --verbose=3 ark:exp/percgncopas5k/chain_s/tdnn1k_sp/decode_test_5g_400k/scoring/test_filt.txt ark,p:- 
+%WER 30.81 [ 264 / 857, 67 ins, 35 del, 162 sub ]
+%SER 100.00 [ 169 / 169 ]
+Scored 169 sentences, 0 not present in hyp.
